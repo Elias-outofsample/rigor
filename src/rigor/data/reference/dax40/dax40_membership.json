@@ -1,0 +1,1307 @@
+{
+  "index_name": "DAX 40 Membership History",
+  "last_updated": "2026-03-01",
+  "source": "Wikipedia DAX article + Deutsche Boerse/STOXX press releases + STOXX Historical Index Compositions (Dec 2025 edition)",
+  "notes": "Point-in-time membership data with add/remove dates. Delisted companies use placeholder tickers (SLUG-YYYYMM). Companies that were renamed use their current ticker for the entire period.",
+  "total_events": 132,
+  "unique_tickers": 79,
+  "current_members": 40,
+  "events": [
+    {
+      "date": "1988-07-01",
+      "ticker": "ALV.DE",
+      "action": "added",
+      "company": "Allianz"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "BAS.DE",
+      "action": "added",
+      "company": "BASF"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "BAYN.DE",
+      "action": "added",
+      "company": "Bayer"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "BHYP-199806",
+      "action": "added",
+      "company": "Bayerische Hypotheken- und Wechselbank"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "BVM-199709",
+      "action": "added",
+      "company": "Bayerische Vereinsbank"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "BMW.DE",
+      "action": "added",
+      "company": "BMW"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "CBK.DE",
+      "action": "added",
+      "company": "Commerzbank"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "CON.DE",
+      "action": "added",
+      "company": "Continental"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "MBG.DE",
+      "action": "added",
+      "company": "Daimler-Benz"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "DEGU-200109",
+      "action": "added",
+      "company": "Degussa"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "DBAB-199309",
+      "action": "added",
+      "company": "Deutsche Babcock"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "DBK.DE",
+      "action": "added",
+      "company": "Deutsche Bank"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "LHA.DE",
+      "action": "added",
+      "company": "Deutsche Lufthansa"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "DRB-200107",
+      "action": "added",
+      "company": "Dresdner Bank"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "FEN-199009",
+      "action": "added",
+      "company": "Feldmuehle Nobel"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "HEN3.DE",
+      "action": "added",
+      "company": "Henkel"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "HOE-199909",
+      "action": "added",
+      "company": "Hoechst"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "KST-200103",
+      "action": "added",
+      "company": "Karstadt/KarstadtQuelle"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "KAU-199607",
+      "action": "added",
+      "company": "Kaufhof"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "LIN.DE",
+      "action": "added",
+      "company": "Linde"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "MAN-201209",
+      "action": "added",
+      "company": "MAN"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "MMN-200006",
+      "action": "added",
+      "company": "Mannesmann"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "NIX-199009",
+      "action": "added",
+      "company": "Nixdorf"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "RWE.DE",
+      "action": "added",
+      "company": "RWE"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "SCH-200606",
+      "action": "added",
+      "company": "Schering"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "SIE.DE",
+      "action": "added",
+      "company": "Siemens"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "TKA.DE",
+      "action": "added",
+      "company": "Thyssen"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "EOAN.DE",
+      "action": "added",
+      "company": "Veba"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "VIAG-200006",
+      "action": "added",
+      "company": "Viag"
+    },
+    {
+      "date": "1988-07-01",
+      "ticker": "VOW3.DE",
+      "action": "added",
+      "company": "Volkswagen"
+    },
+    {
+      "date": "1990-09-18",
+      "ticker": "FEN-199009",
+      "action": "removed",
+      "company": "Feldmuehle Nobel"
+    },
+    {
+      "date": "1990-09-18",
+      "ticker": "NIX-199009",
+      "action": "removed",
+      "company": "Nixdorf"
+    },
+    {
+      "date": "1990-09-18",
+      "ticker": "MGL-199611",
+      "action": "added",
+      "company": "Metallgesellschaft"
+    },
+    {
+      "date": "1990-09-18",
+      "ticker": "TUI1.DE",
+      "action": "added",
+      "company": "Preussag"
+    },
+    {
+      "date": "1995-07-24",
+      "ticker": "DBAB-199309",
+      "action": "removed",
+      "company": "Deutsche Babcock"
+    },
+    {
+      "date": "1995-07-24",
+      "ticker": "SAP.DE",
+      "action": "added",
+      "company": "SAP"
+    },
+    {
+      "date": "1996-07-22",
+      "ticker": "KAU-199607",
+      "action": "removed",
+      "company": "Kaufhof"
+    },
+    {
+      "date": "1996-07-22",
+      "ticker": "MEO-200209",
+      "action": "added",
+      "company": "Metro"
+    },
+    {
+      "date": "1996-09-23",
+      "ticker": "CON.DE",
+      "action": "removed",
+      "company": "Continental"
+    },
+    {
+      "date": "1996-09-23",
+      "ticker": "MUV2.DE",
+      "action": "added",
+      "company": "Muenchener Rueckversicherung"
+    },
+    {
+      "date": "1996-11-18",
+      "ticker": "MGL-199611",
+      "action": "removed",
+      "company": "Metallgesellschaft"
+    },
+    {
+      "date": "1996-11-18",
+      "ticker": "DTE.DE",
+      "action": "added",
+      "company": "Deutsche Telekom"
+    },
+    {
+      "date": "1997-09-22",
+      "ticker": "BVM-199709",
+      "action": "removed",
+      "company": "Bayerische Vereinsbank"
+    },
+    {
+      "date": "1997-09-22",
+      "ticker": "ADS.DE",
+      "action": "added",
+      "company": "adidas"
+    },
+    {
+      "date": "1998-06-22",
+      "ticker": "BHYP-199806",
+      "action": "removed",
+      "company": "Bay. Hypotheken- und Wechselbank"
+    },
+    {
+      "date": "1998-06-22",
+      "ticker": "HVB-200512",
+      "action": "added",
+      "company": "HypoVereinsbank"
+    },
+    {
+      "date": "1999-09-20",
+      "ticker": "HOE-199909",
+      "action": "removed",
+      "company": "Hoechst"
+    },
+    {
+      "date": "1999-09-20",
+      "ticker": "FME.DE",
+      "action": "added",
+      "company": "Fresenius Medical Care"
+    },
+    {
+      "date": "2000-06-19",
+      "ticker": "MMN-200006",
+      "action": "removed",
+      "company": "Mannesmann"
+    },
+    {
+      "date": "2000-06-19",
+      "ticker": "VIAG-200006",
+      "action": "removed",
+      "company": "Viag"
+    },
+    {
+      "date": "2000-06-19",
+      "ticker": "EPC-200212",
+      "action": "added",
+      "company": "EPCOS"
+    },
+    {
+      "date": "2000-06-19",
+      "ticker": "IFX.DE",
+      "action": "added",
+      "company": "Infineon Technologies"
+    },
+    {
+      "date": "2001-03-19",
+      "ticker": "KST-200103",
+      "action": "removed",
+      "company": "Karstadt"
+    },
+    {
+      "date": "2001-03-19",
+      "ticker": "DHL.DE",
+      "action": "added",
+      "company": "Deutsche Post"
+    },
+    {
+      "date": "2001-07-23",
+      "ticker": "DRB-200107",
+      "action": "removed",
+      "company": "Dresdner Bank"
+    },
+    {
+      "date": "2001-07-23",
+      "ticker": "MLP-200309",
+      "action": "added",
+      "company": "MLP"
+    },
+    {
+      "date": "2001-09-24",
+      "ticker": "DEGU-200109",
+      "action": "removed",
+      "company": "Degussa"
+    },
+    {
+      "date": "2001-09-24",
+      "ticker": "ALT-200706",
+      "action": "added",
+      "company": "Altana"
+    },
+    {
+      "date": "2002-12-23",
+      "ticker": "EPC-200212",
+      "action": "removed",
+      "company": "EPCOS"
+    },
+    {
+      "date": "2002-12-23",
+      "ticker": "DB1.DE",
+      "action": "added",
+      "company": "Deutsche Boerse"
+    },
+    {
+      "date": "2003-09-22",
+      "ticker": "MLP-200309",
+      "action": "removed",
+      "company": "MLP"
+    },
+    {
+      "date": "2003-09-22",
+      "ticker": "CON.DE",
+      "action": "added",
+      "company": "Continental"
+    },
+    {
+      "date": "2005-12-19",
+      "ticker": "HVB-200512",
+      "action": "removed",
+      "company": "HypoVereinsbank"
+    },
+    {
+      "date": "2005-12-19",
+      "ticker": "HRX-200812",
+      "action": "added",
+      "company": "Hypo Real Estate"
+    },
+    {
+      "date": "2006-06-19",
+      "ticker": "SCH-200606",
+      "action": "removed",
+      "company": "Schering"
+    },
+    {
+      "date": "2006-06-19",
+      "ticker": "DPB-200909",
+      "action": "added",
+      "company": "Deutsche Postbank"
+    },
+    {
+      "date": "2007-06-18",
+      "ticker": "ALT-200706",
+      "action": "removed",
+      "company": "Altana"
+    },
+    {
+      "date": "2007-06-18",
+      "ticker": "MRK.DE",
+      "action": "added",
+      "company": "Merck KGaA"
+    },
+    {
+      "date": "2008-09-22",
+      "ticker": "TUI1.DE",
+      "action": "removed",
+      "company": "TUI"
+    },
+    {
+      "date": "2008-09-22",
+      "ticker": "SDF-201603",
+      "action": "added",
+      "company": "K+S"
+    },
+    {
+      "date": "2008-12-22",
+      "ticker": "CON.DE",
+      "action": "removed",
+      "company": "Continental"
+    },
+    {
+      "date": "2008-12-22",
+      "ticker": "HRX-200812",
+      "action": "removed",
+      "company": "Hypo Real Estate"
+    },
+    {
+      "date": "2008-12-22",
+      "ticker": "BEI.DE",
+      "action": "added",
+      "company": "Beiersdorf"
+    },
+    {
+      "date": "2008-12-22",
+      "ticker": "SZG-201006",
+      "action": "added",
+      "company": "Salzgitter"
+    },
+    {
+      "date": "2009-03-23",
+      "ticker": "IFX.DE",
+      "action": "removed",
+      "company": "Infineon Technologies"
+    },
+    {
+      "date": "2009-03-23",
+      "ticker": "DPB-200909",
+      "action": "removed",
+      "company": "Deutsche Postbank"
+    },
+    {
+      "date": "2009-03-23",
+      "ticker": "FRE.DE",
+      "action": "added",
+      "company": "Fresenius SE"
+    },
+    {
+      "date": "2009-03-23",
+      "ticker": "HNR1.DE",
+      "action": "added",
+      "company": "Hannover Rueck"
+    },
+    {
+      "date": "2009-09-21",
+      "ticker": "HNR1.DE",
+      "action": "removed",
+      "company": "Hannover Rueck"
+    },
+    {
+      "date": "2009-09-21",
+      "ticker": "IFX.DE",
+      "action": "added",
+      "company": "Infineon Technologies"
+    },
+    {
+      "date": "2010-06-21",
+      "ticker": "SZG-201006",
+      "action": "removed",
+      "company": "Salzgitter"
+    },
+    {
+      "date": "2010-06-21",
+      "ticker": "HEI.DE",
+      "action": "added",
+      "company": "HeidelbergCement"
+    },
+    {
+      "date": "2012-09-24",
+      "ticker": "MAN-201209",
+      "action": "removed",
+      "company": "MAN"
+    },
+    {
+      "date": "2012-09-24",
+      "ticker": "MEO-200209",
+      "action": "removed",
+      "company": "Metro"
+    },
+    {
+      "date": "2012-09-24",
+      "ticker": "CON.DE",
+      "action": "added",
+      "company": "Continental"
+    },
+    {
+      "date": "2012-09-24",
+      "ticker": "LXS-201509",
+      "action": "added",
+      "company": "Lanxess"
+    },
+    {
+      "date": "2015-09-21",
+      "ticker": "LXS-201509",
+      "action": "removed",
+      "company": "Lanxess"
+    },
+    {
+      "date": "2015-09-21",
+      "ticker": "VNA.DE",
+      "action": "added",
+      "company": "Vonovia"
+    },
+    {
+      "date": "2016-03-21",
+      "ticker": "SDF-201603",
+      "action": "removed",
+      "company": "K+S"
+    },
+    {
+      "date": "2016-03-21",
+      "ticker": "PSM-201803",
+      "action": "added",
+      "company": "ProSiebenSat.1 Media"
+    },
+    {
+      "date": "2018-03-19",
+      "ticker": "PSM-201803",
+      "action": "removed",
+      "company": "ProSiebenSat.1 Media"
+    },
+    {
+      "date": "2018-03-19",
+      "ticker": "1COV.DE",
+      "action": "added",
+      "company": "Covestro"
+    },
+    {
+      "date": "2018-09-24",
+      "ticker": "CBK.DE",
+      "action": "removed",
+      "company": "Commerzbank"
+    },
+    {
+      "date": "2018-09-24",
+      "ticker": "WDI-202008",
+      "action": "added",
+      "company": "Wirecard"
+    },
+    {
+      "date": "2019-09-23",
+      "ticker": "TKA.DE",
+      "action": "removed",
+      "company": "thyssenkrupp"
+    },
+    {
+      "date": "2019-09-23",
+      "ticker": "MTX.DE",
+      "action": "added",
+      "company": "MTU Aero Engines"
+    },
+    {
+      "date": "2020-06-22",
+      "ticker": "LHA.DE",
+      "action": "removed",
+      "company": "Deutsche Lufthansa"
+    },
+    {
+      "date": "2020-06-22",
+      "ticker": "DWNI-202209",
+      "action": "added",
+      "company": "Deutsche Wohnen"
+    },
+    {
+      "date": "2020-08-24",
+      "ticker": "WDI-202008",
+      "action": "removed",
+      "company": "Wirecard"
+    },
+    {
+      "date": "2020-08-24",
+      "ticker": "DHER-202206",
+      "action": "added",
+      "company": "Delivery Hero"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "DWNI-202209",
+      "action": "removed",
+      "company": "Deutsche Wohnen"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "AIR.DE",
+      "action": "added",
+      "company": "Airbus"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "ZAL.DE",
+      "action": "added",
+      "company": "Zalando"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "SHL.DE",
+      "action": "added",
+      "company": "Siemens Healthineers"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "SY1.DE",
+      "action": "added",
+      "company": "Symrise"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "HFG-202209",
+      "action": "added",
+      "company": "HelloFresh"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "PAH3.DE",
+      "action": "added",
+      "company": "Porsche Automobil Holding"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "SRT3-202509",
+      "action": "added",
+      "company": "Sartorius"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "BNR.DE",
+      "action": "added",
+      "company": "Brenntag"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "PUM-202212",
+      "action": "added",
+      "company": "Puma"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "QIA.DE",
+      "action": "added",
+      "company": "Qiagen"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "ENR-202203",
+      "action": "added",
+      "company": "Siemens Energy"
+    },
+    {
+      "date": "2022-03-21",
+      "ticker": "BEI.DE",
+      "action": "removed",
+      "company": "Beiersdorf"
+    },
+    {
+      "date": "2022-03-21",
+      "ticker": "ENR-202203",
+      "action": "removed",
+      "company": "Siemens Energy"
+    },
+    {
+      "date": "2022-03-21",
+      "ticker": "DTG.DE",
+      "action": "added",
+      "company": "Daimler Truck Holding"
+    },
+    {
+      "date": "2022-03-21",
+      "ticker": "HNR1.DE",
+      "action": "added",
+      "company": "Hannover Rueck"
+    },
+    {
+      "date": "2022-06-20",
+      "ticker": "DHER-202206",
+      "action": "removed",
+      "company": "Delivery Hero"
+    },
+    {
+      "date": "2022-06-20",
+      "ticker": "BEI.DE",
+      "action": "added",
+      "company": "Beiersdorf"
+    },
+    {
+      "date": "2022-09-19",
+      "ticker": "HFG-202209",
+      "action": "removed",
+      "company": "HelloFresh"
+    },
+    {
+      "date": "2022-09-19",
+      "ticker": "ENR.DE",
+      "action": "added",
+      "company": "Siemens Energy"
+    },
+    {
+      "date": "2022-12-19",
+      "ticker": "PUM-202212",
+      "action": "removed",
+      "company": "Puma"
+    },
+    {
+      "date": "2022-12-19",
+      "ticker": "P911-202509",
+      "action": "added",
+      "company": "Porsche AG"
+    },
+    {
+      "date": "2023-02-27",
+      "ticker": "LIN.DE",
+      "action": "removed",
+      "company": "Linde"
+    },
+    {
+      "date": "2023-02-27",
+      "ticker": "CBK.DE",
+      "action": "added",
+      "company": "Commerzbank"
+    },
+    {
+      "date": "2023-03-20",
+      "ticker": "FME.DE",
+      "action": "removed",
+      "company": "Fresenius Medical Care"
+    },
+    {
+      "date": "2023-03-20",
+      "ticker": "RHM.DE",
+      "action": "added",
+      "company": "Rheinmetall"
+    },
+    {
+      "date": "2024-12-27",
+      "ticker": "1COV.DE",
+      "action": "removed",
+      "company": "Covestro"
+    },
+    {
+      "date": "2024-12-27",
+      "ticker": "FME.DE",
+      "action": "added",
+      "company": "Fresenius Medical Care"
+    },
+    {
+      "date": "2025-09-22",
+      "ticker": "P911-202509",
+      "action": "removed",
+      "company": "Porsche AG"
+    },
+    {
+      "date": "2025-09-22",
+      "ticker": "SRT3-202509",
+      "action": "removed",
+      "company": "Sartorius"
+    },
+    {
+      "date": "2025-09-22",
+      "ticker": "G1A.DE",
+      "action": "added",
+      "company": "GEA Group"
+    },
+    {
+      "date": "2025-09-22",
+      "ticker": "G24.DE",
+      "action": "added",
+      "company": "Scout24"
+    }
+  ],
+  "tickers": {
+    "ADS.DE": [
+      {
+        "added": "1997-09-22",
+        "removed": null
+      }
+    ],
+    "AIR.DE": [
+      {
+        "added": "2021-09-20",
+        "removed": null
+      }
+    ],
+    "ALV.DE": [
+      {
+        "added": "1988-07-01",
+        "removed": null
+      }
+    ],
+    "BAS.DE": [
+      {
+        "added": "1988-07-01",
+        "removed": null
+      }
+    ],
+    "BAYN.DE": [
+      {
+        "added": "1988-07-01",
+        "removed": null
+      }
+    ],
+    "BEI.DE": [
+      {
+        "added": "2008-12-22",
+        "removed": "2022-03-21"
+      },
+      {
+        "added": "2022-06-20",
+        "removed": null
+      }
+    ],
+    "BMW.DE": [
+      {
+        "added": "1988-07-01",
+        "removed": null
+      }
+    ],
+    "BNR.DE": [
+      {
+        "added": "2021-09-20",
+        "removed": null
+      }
+    ],
+    "CBK.DE": [
+      {
+        "added": "1988-07-01",
+        "removed": "2018-09-24"
+      },
+      {
+        "added": "2023-02-27",
+        "removed": null
+      }
+    ],
+    "CON.DE": [
+      {
+        "added": "1988-07-01",
+        "removed": "1996-09-23"
+      },
+      {
+        "added": "2003-09-22",
+        "removed": "2008-12-22"
+      },
+      {
+        "added": "2012-09-24",
+        "removed": null
+      }
+    ],
+    "DB1.DE": [
+      {
+        "added": "2002-12-23",
+        "removed": null
+      }
+    ],
+    "DBK.DE": [
+      {
+        "added": "1988-07-01",
+        "removed": null
+      }
+    ],
+    "DHL.DE": [
+      {
+        "added": "2001-03-19",
+        "removed": null
+      }
+    ],
+    "DTE.DE": [
+      {
+        "added": "1996-11-18",
+        "removed": null
+      }
+    ],
+    "DTG.DE": [
+      {
+        "added": "2022-03-21",
+        "removed": null
+      }
+    ],
+    "ENR.DE": [
+      {
+        "added": "2022-09-19",
+        "removed": null
+      }
+    ],
+    "EOAN.DE": [
+      {
+        "added": "1988-07-01",
+        "removed": null
+      }
+    ],
+    "FME.DE": [
+      {
+        "added": "1999-09-20",
+        "removed": "2023-03-20"
+      },
+      {
+        "added": "2024-12-27",
+        "removed": null
+      }
+    ],
+    "FRE.DE": [
+      {
+        "added": "2009-03-23",
+        "removed": null
+      }
+    ],
+    "G1A.DE": [
+      {
+        "added": "2025-09-22",
+        "removed": null
+      }
+    ],
+    "G24.DE": [
+      {
+        "added": "2025-09-22",
+        "removed": null
+      }
+    ],
+    "HEI.DE": [
+      {
+        "added": "2010-06-21",
+        "removed": null
+      }
+    ],
+    "HEN3.DE": [
+      {
+        "added": "1988-07-01",
+        "removed": null
+      }
+    ],
+    "HNR1.DE": [
+      {
+        "added": "2009-03-23",
+        "removed": "2009-09-21"
+      },
+      {
+        "added": "2022-03-21",
+        "removed": null
+      }
+    ],
+    "IFX.DE": [
+      {
+        "added": "2000-06-19",
+        "removed": "2009-03-23"
+      },
+      {
+        "added": "2009-09-21",
+        "removed": null
+      }
+    ],
+    "MBG.DE": [
+      {
+        "added": "1988-07-01",
+        "removed": null
+      }
+    ],
+    "MRK.DE": [
+      {
+        "added": "2007-06-18",
+        "removed": null
+      }
+    ],
+    "MTX.DE": [
+      {
+        "added": "2019-09-23",
+        "removed": null
+      }
+    ],
+    "MUV2.DE": [
+      {
+        "added": "1996-09-23",
+        "removed": null
+      }
+    ],
+    "PAH3.DE": [
+      {
+        "added": "2021-09-20",
+        "removed": null
+      }
+    ],
+    "QIA.DE": [
+      {
+        "added": "2021-09-20",
+        "removed": null
+      }
+    ],
+    "RHM.DE": [
+      {
+        "added": "2023-03-20",
+        "removed": null
+      }
+    ],
+    "RWE.DE": [
+      {
+        "added": "1988-07-01",
+        "removed": null
+      }
+    ],
+    "SAP.DE": [
+      {
+        "added": "1995-07-24",
+        "removed": null
+      }
+    ],
+    "SHL.DE": [
+      {
+        "added": "2021-09-20",
+        "removed": null
+      }
+    ],
+    "SIE.DE": [
+      {
+        "added": "1988-07-01",
+        "removed": null
+      }
+    ],
+    "SY1.DE": [
+      {
+        "added": "2021-09-20",
+        "removed": null
+      }
+    ],
+    "VNA.DE": [
+      {
+        "added": "2015-09-21",
+        "removed": null
+      }
+    ],
+    "VOW3.DE": [
+      {
+        "added": "1988-07-01",
+        "removed": null
+      }
+    ],
+    "ZAL.DE": [
+      {
+        "added": "2021-09-20",
+        "removed": null
+      }
+    ],
+    "1COV.DE": [
+      {
+        "added": "2018-03-19",
+        "removed": "2024-12-27"
+      }
+    ],
+    "ALT-200706": [
+      {
+        "added": "2001-09-24",
+        "removed": "2007-06-18"
+      }
+    ],
+    "BHYP-199806": [
+      {
+        "added": "1988-07-01",
+        "removed": "1998-06-22"
+      }
+    ],
+    "BVM-199709": [
+      {
+        "added": "1988-07-01",
+        "removed": "1997-09-22"
+      }
+    ],
+    "DBAB-199309": [
+      {
+        "added": "1988-07-01",
+        "removed": "1995-07-24"
+      }
+    ],
+    "DEGU-200109": [
+      {
+        "added": "1988-07-01",
+        "removed": "2001-09-24"
+      }
+    ],
+    "DHER-202206": [
+      {
+        "added": "2020-08-24",
+        "removed": "2022-06-20"
+      }
+    ],
+    "DPB-200909": [
+      {
+        "added": "2006-06-19",
+        "removed": "2009-03-23"
+      }
+    ],
+    "DRB-200107": [
+      {
+        "added": "1988-07-01",
+        "removed": "2001-07-23"
+      }
+    ],
+    "DWNI-202209": [
+      {
+        "added": "2020-06-22",
+        "removed": "2021-09-20"
+      }
+    ],
+    "ENR-202203": [
+      {
+        "added": "2021-09-20",
+        "removed": "2022-03-21"
+      }
+    ],
+    "EPC-200212": [
+      {
+        "added": "2000-06-19",
+        "removed": "2002-12-23"
+      }
+    ],
+    "FEN-199009": [
+      {
+        "added": "1988-07-01",
+        "removed": "1990-09-18"
+      }
+    ],
+    "HFG-202209": [
+      {
+        "added": "2021-09-20",
+        "removed": "2022-09-19"
+      }
+    ],
+    "HOE-199909": [
+      {
+        "added": "1988-07-01",
+        "removed": "1999-09-20"
+      }
+    ],
+    "HRX-200812": [
+      {
+        "added": "2005-12-19",
+        "removed": "2008-12-22"
+      }
+    ],
+    "HVB-200512": [
+      {
+        "added": "1998-06-22",
+        "removed": "2005-12-19"
+      }
+    ],
+    "KAU-199607": [
+      {
+        "added": "1988-07-01",
+        "removed": "1996-07-22"
+      }
+    ],
+    "KST-200103": [
+      {
+        "added": "1988-07-01",
+        "removed": "2001-03-19"
+      }
+    ],
+    "LHA.DE": [
+      {
+        "added": "1988-07-01",
+        "removed": "2020-06-22"
+      }
+    ],
+    "LIN.DE": [
+      {
+        "added": "1988-07-01",
+        "removed": "2023-02-27"
+      }
+    ],
+    "LXS-201509": [
+      {
+        "added": "2012-09-24",
+        "removed": "2015-09-21"
+      }
+    ],
+    "MAN-201209": [
+      {
+        "added": "1988-07-01",
+        "removed": "2012-09-24"
+      }
+    ],
+    "MEO-200209": [
+      {
+        "added": "1996-07-22",
+        "removed": "2012-09-24"
+      }
+    ],
+    "MGL-199611": [
+      {
+        "added": "1990-09-18",
+        "removed": "1996-11-18"
+      }
+    ],
+    "MLP-200309": [
+      {
+        "added": "2001-07-23",
+        "removed": "2003-09-22"
+      }
+    ],
+    "MMN-200006": [
+      {
+        "added": "1988-07-01",
+        "removed": "2000-06-19"
+      }
+    ],
+    "NIX-199009": [
+      {
+        "added": "1988-07-01",
+        "removed": "1990-09-18"
+      }
+    ],
+    "P911-202509": [
+      {
+        "added": "2022-12-19",
+        "removed": "2025-09-22"
+      }
+    ],
+    "PSM-201803": [
+      {
+        "added": "2016-03-21",
+        "removed": "2018-03-19"
+      }
+    ],
+    "PUM-202212": [
+      {
+        "added": "2021-09-20",
+        "removed": "2022-12-19"
+      }
+    ],
+    "SCH-200606": [
+      {
+        "added": "1988-07-01",
+        "removed": "2006-06-19"
+      }
+    ],
+    "SDF-201603": [
+      {
+        "added": "2008-09-22",
+        "removed": "2016-03-21"
+      }
+    ],
+    "SRT3-202509": [
+      {
+        "added": "2021-09-20",
+        "removed": "2025-09-22"
+      }
+    ],
+    "SZG-201006": [
+      {
+        "added": "2008-12-22",
+        "removed": "2010-06-21"
+      }
+    ],
+    "TKA.DE": [
+      {
+        "added": "1988-07-01",
+        "removed": "2019-09-23"
+      }
+    ],
+    "TUI1.DE": [
+      {
+        "added": "1990-09-18",
+        "removed": "2008-09-22"
+      }
+    ],
+    "VIAG-200006": [
+      {
+        "added": "1988-07-01",
+        "removed": "2000-06-19"
+      }
+    ],
+    "WDI-202008": [
+      {
+        "added": "2018-09-24",
+        "removed": "2020-08-24"
+      }
+    ]
+  }
+}

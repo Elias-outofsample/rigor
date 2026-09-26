@@ -1,0 +1,1969 @@
+{
+  "index_name": "CAC 40 Membership History",
+  "last_updated": "2026-03-01",
+  "source": "bnains.org complete CAC 40 composition history + abcbourse.com index modification records + Euronext quarterly review announcements + Wikipedia CAC 40 article",
+  "notes": "Point-in-time membership data with add/remove dates. Delisted companies use placeholder tickers (SLUG-YYYYMM). Companies that were renamed use their current ticker for the entire period.",
+  "total_events": 208,
+  "unique_tickers": 106,
+  "current_members": 40,
+  "events": [
+    {
+      "date": "1987-12-31",
+      "ticker": "AC.PA",
+      "action": "added",
+      "company": "Accor"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "AI.PA",
+      "action": "added",
+      "company": "Air Liquide"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "CGE-198903",
+      "action": "added",
+      "company": "Alcatel (CGE)"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "ARJOM-199112",
+      "action": "added",
+      "company": "Arjomari-Prioux"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "CS.PA",
+      "action": "added",
+      "company": "AXA"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "EN.PA",
+      "action": "added",
+      "company": "Bouygues"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "BN.PA",
+      "action": "added",
+      "company": "BSN (Danone)"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "CA.PA",
+      "action": "added",
+      "company": "Carrefour"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "CASINO-200509",
+      "action": "added",
+      "company": "Casino"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "CGIP-199502",
+      "action": "added",
+      "company": "CGIP"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "CHARG-199311",
+      "action": "added",
+      "company": "Chargeurs"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "CLUBM-199311",
+      "action": "added",
+      "company": "Club Mediterranee"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "CBANK-199503",
+      "action": "added",
+      "company": "Compagnie Bancaire"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "CREFO-199511",
+      "action": "added",
+      "company": "Credit Foncier de France"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "DARTY-198805",
+      "action": "added",
+      "company": "Darty"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "DUMEZ-199010",
+      "action": "added",
+      "company": "Dumez"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "ELFAQ-200002",
+      "action": "added",
+      "company": "Elf Aquitaine"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "EL.PA",
+      "action": "added",
+      "company": "Essilor"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "VIV.PA",
+      "action": "added",
+      "company": "Generale des Eaux"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "OCCID-198805",
+      "action": "added",
+      "company": "Generale Occidentale"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "HACH-199403",
+      "action": "added",
+      "company": "Hachette"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "HAVAS-198805",
+      "action": "added",
+      "company": "Havas"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "LAFARGE-201806",
+      "action": "added",
+      "company": "Lafarge Coppee"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "LR.PA",
+      "action": "added",
+      "company": "Legrand"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "OR.PA",
+      "action": "added",
+      "company": "L'Oreal"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "LYONN-199712",
+      "action": "added",
+      "company": "Lyonnaise des Eaux"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "MC.PA",
+      "action": "added",
+      "company": "LVMH"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "ML.PA",
+      "action": "added",
+      "company": "Michelin"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "NAVMX-199005",
+      "action": "added",
+      "company": "Navigation Mixte"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "PARIB-199909",
+      "action": "added",
+      "company": "Paribas"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "PECHL-199005",
+      "action": "added",
+      "company": "Pechelbronn"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "RI.PA",
+      "action": "added",
+      "company": "Pernod Ricard"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "STLAP.PA",
+      "action": "added",
+      "company": "Peugeot SA"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "SGO.PA",
+      "action": "added",
+      "company": "Saint-Gobain"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "STLOU-199503",
+      "action": "added",
+      "company": "Saint-Louis"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "SAN.PA",
+      "action": "added",
+      "company": "Sanofi"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "GLE.PA",
+      "action": "added",
+      "company": "Societe Generale"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "SUEZ-199712",
+      "action": "added",
+      "company": "Suez (Cie Financiere)"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "TELEM-198805",
+      "action": "added",
+      "company": "Telemecanique"
+    },
+    {
+      "date": "1987-12-31",
+      "ticker": "HO.PA",
+      "action": "added",
+      "company": "Thomson-CSF"
+    },
+    {
+      "date": "1988-05-27",
+      "ticker": "OCCID-198805",
+      "action": "removed",
+      "company": "Generale Occidentale"
+    },
+    {
+      "date": "1988-05-27",
+      "ticker": "TELEM-198805",
+      "action": "removed",
+      "company": "Telemecanique"
+    },
+    {
+      "date": "1988-05-27",
+      "ticker": "MERLI-199012",
+      "action": "added",
+      "company": "Merlin Gerin"
+    },
+    {
+      "date": "1988-05-27",
+      "ticker": "CAP.PA",
+      "action": "added",
+      "company": "Cap Gemini"
+    },
+    {
+      "date": "1988-08-03",
+      "ticker": "DARTY-198805",
+      "action": "removed",
+      "company": "Darty"
+    },
+    {
+      "date": "1988-08-03",
+      "ticker": "HAVAS-198805",
+      "action": "removed",
+      "company": "Havas"
+    },
+    {
+      "date": "1988-08-03",
+      "ticker": "CCF-200004",
+      "action": "added",
+      "company": "CCF"
+    },
+    {
+      "date": "1988-08-03",
+      "ticker": "VANTI-200706",
+      "action": "added",
+      "company": "Thomson Multimedia"
+    },
+    {
+      "date": "1989-03-06",
+      "ticker": "CGE-198903",
+      "action": "removed",
+      "company": "CGE"
+    },
+    {
+      "date": "1989-03-06",
+      "ticker": "ALU-201224",
+      "action": "added",
+      "company": "Alcatel"
+    },
+    {
+      "date": "1990-05-02",
+      "ticker": "EL.PA",
+      "action": "removed",
+      "company": "Essilor"
+    },
+    {
+      "date": "1990-05-02",
+      "ticker": "NAVMX-199005",
+      "action": "removed",
+      "company": "Navigation Mixte"
+    },
+    {
+      "date": "1990-05-02",
+      "ticker": "PECHL-199005",
+      "action": "removed",
+      "company": "Pechelbronn"
+    },
+    {
+      "date": "1990-05-02",
+      "ticker": "CANAL-200504",
+      "action": "added",
+      "company": "Canal+"
+    },
+    {
+      "date": "1990-05-02",
+      "ticker": "MATRA-199903",
+      "action": "added",
+      "company": "Matra"
+    },
+    {
+      "date": "1990-05-02",
+      "ticker": "UAP-199711",
+      "action": "added",
+      "company": "UAP"
+    },
+    {
+      "date": "1990-12-10",
+      "ticker": "DUMEZ-199010",
+      "action": "removed",
+      "company": "Dumez"
+    },
+    {
+      "date": "1990-12-10",
+      "ticker": "MERLI-199012",
+      "action": "removed",
+      "company": "Merlin Gerin"
+    },
+    {
+      "date": "1990-12-10",
+      "ticker": "SU.PA",
+      "action": "added",
+      "company": "Schneider Electric"
+    },
+    {
+      "date": "1990-12-10",
+      "ticker": "PERRI-199203",
+      "action": "added",
+      "company": "Source Perrier"
+    },
+    {
+      "date": "1991-12-02",
+      "ticker": "ARJOM-199112",
+      "action": "removed",
+      "company": "Arjomari-Prioux"
+    },
+    {
+      "date": "1991-12-02",
+      "ticker": "TTE.PA",
+      "action": "added",
+      "company": "Total"
+    },
+    {
+      "date": "1992-03-19",
+      "ticker": "PERRI-199203",
+      "action": "removed",
+      "company": "Source Perrier"
+    },
+    {
+      "date": "1992-03-19",
+      "ticker": "EDISN-199502",
+      "action": "added",
+      "company": "Euro Disney"
+    },
+    {
+      "date": "1993-11-17",
+      "ticker": "CAP.PA",
+      "action": "removed",
+      "company": "Cap Gemini"
+    },
+    {
+      "date": "1993-11-17",
+      "ticker": "CHARG-199311",
+      "action": "removed",
+      "company": "Chargeurs"
+    },
+    {
+      "date": "1993-11-17",
+      "ticker": "CLUBM-199311",
+      "action": "removed",
+      "company": "Club Mediterranee"
+    },
+    {
+      "date": "1993-11-17",
+      "ticker": "BNP.PA",
+      "action": "added",
+      "company": "BNP"
+    },
+    {
+      "date": "1993-11-17",
+      "ticker": "CRLOC-199712",
+      "action": "added",
+      "company": "Credit Local de France"
+    },
+    {
+      "date": "1993-11-17",
+      "ticker": "PROMO-199909",
+      "action": "added",
+      "company": "Promodes"
+    },
+    {
+      "date": "1994-03-22",
+      "ticker": "HACH-199403",
+      "action": "removed",
+      "company": "Hachette"
+    },
+    {
+      "date": "1994-03-22",
+      "ticker": "MMB.PA",
+      "action": "added",
+      "company": "Lagardere"
+    },
+    {
+      "date": "1995-02-09",
+      "ticker": "CASINO-200509",
+      "action": "removed",
+      "company": "Casino"
+    },
+    {
+      "date": "1995-02-09",
+      "ticker": "CGIP-199502",
+      "action": "removed",
+      "company": "CGIP"
+    },
+    {
+      "date": "1995-02-09",
+      "ticker": "EDISN-199502",
+      "action": "removed",
+      "company": "Euro Disney"
+    },
+    {
+      "date": "1995-02-09",
+      "ticker": "EUROT-199903",
+      "action": "added",
+      "company": "Eurotunnel"
+    },
+    {
+      "date": "1995-02-09",
+      "ticker": "KER.PA",
+      "action": "added",
+      "company": "PPR (Kering)"
+    },
+    {
+      "date": "1995-02-09",
+      "ticker": "RNO.PA",
+      "action": "added",
+      "company": "Renault"
+    },
+    {
+      "date": "1995-03-06",
+      "ticker": "CBANK-199503",
+      "action": "removed",
+      "company": "Compagnie Bancaire"
+    },
+    {
+      "date": "1995-03-06",
+      "ticker": "STLOU-199503",
+      "action": "removed",
+      "company": "Saint-Louis"
+    },
+    {
+      "date": "1995-03-06",
+      "ticker": "ERIDA-199909",
+      "action": "added",
+      "company": "Eridania Beghin Say"
+    },
+    {
+      "date": "1995-03-06",
+      "ticker": "AGF-200706",
+      "action": "added",
+      "company": "AGF"
+    },
+    {
+      "date": "1995-11-14",
+      "ticker": "CREFO-199511",
+      "action": "removed",
+      "company": "Credit Foncier de France"
+    },
+    {
+      "date": "1995-11-14",
+      "ticker": "BIC-199603",
+      "action": "added",
+      "company": "BIC"
+    },
+    {
+      "date": "1996-03-04",
+      "ticker": "BIC-199603",
+      "action": "removed",
+      "company": "BIC"
+    },
+    {
+      "date": "1996-03-04",
+      "ticker": "USINO-200202",
+      "action": "added",
+      "company": "Usinor"
+    },
+    {
+      "date": "1996-11-18",
+      "ticker": "EUROT-199903",
+      "action": "removed",
+      "company": "Eurotunnel"
+    },
+    {
+      "date": "1996-11-18",
+      "ticker": "FR.PA",
+      "action": "added",
+      "company": "Valeo"
+    },
+    {
+      "date": "1997-05-12",
+      "ticker": "CCF-200004",
+      "action": "removed",
+      "company": "CCF"
+    },
+    {
+      "date": "1997-05-12",
+      "ticker": "ORA.PA",
+      "action": "added",
+      "company": "France Telecom"
+    },
+    {
+      "date": "1997-11-17",
+      "ticker": "UAP-199711",
+      "action": "removed",
+      "company": "UAP"
+    },
+    {
+      "date": "1997-11-17",
+      "ticker": "CAP.PA",
+      "action": "added",
+      "company": "Cap Gemini"
+    },
+    {
+      "date": "1997-12-15",
+      "ticker": "LYONN-199712",
+      "action": "removed",
+      "company": "Lyonnaise des Eaux"
+    },
+    {
+      "date": "1997-12-15",
+      "ticker": "SUEZ-199712",
+      "action": "removed",
+      "company": "Suez (Cie Financiere)"
+    },
+    {
+      "date": "1997-12-15",
+      "ticker": "CRLOC-199712",
+      "action": "removed",
+      "company": "Credit Local de France"
+    },
+    {
+      "date": "1997-12-15",
+      "ticker": "ENGI.PA",
+      "action": "added",
+      "company": "Suez Lyonnaise des Eaux"
+    },
+    {
+      "date": "1997-12-15",
+      "ticker": "STM.PA",
+      "action": "added",
+      "company": "STMicroelectronics"
+    },
+    {
+      "date": "1997-12-15",
+      "ticker": "CRELY-200305",
+      "action": "added",
+      "company": "Credit Lyonnais"
+    },
+    {
+      "date": "1999-03-08",
+      "ticker": "MATRA-199903",
+      "action": "removed",
+      "company": "Matra"
+    },
+    {
+      "date": "1999-03-08",
+      "ticker": "DEXIA-201009",
+      "action": "added",
+      "company": "Dexia"
+    },
+    {
+      "date": "1999-06-21",
+      "ticker": "RI.PA",
+      "action": "removed",
+      "company": "Pernod Ricard"
+    },
+    {
+      "date": "1999-06-21",
+      "ticker": "AIR.PA",
+      "action": "added",
+      "company": "Aerospatiale-Matra"
+    },
+    {
+      "date": "1999-09-20",
+      "ticker": "PARIB-199909",
+      "action": "removed",
+      "company": "Paribas"
+    },
+    {
+      "date": "1999-09-20",
+      "ticker": "PROMO-199909",
+      "action": "removed",
+      "company": "Promodes"
+    },
+    {
+      "date": "1999-09-20",
+      "ticker": "ERIDA-199909",
+      "action": "removed",
+      "company": "Eridania Beghin Say"
+    },
+    {
+      "date": "1999-09-20",
+      "ticker": "CASINO-200509",
+      "action": "added",
+      "company": "Casino"
+    },
+    {
+      "date": "1999-09-20",
+      "ticker": "EQUAN-200105",
+      "action": "added",
+      "company": "Equant"
+    },
+    {
+      "date": "1999-09-20",
+      "ticker": "CCF-200004",
+      "action": "added",
+      "company": "CCF"
+    },
+    {
+      "date": "2000-02-21",
+      "ticker": "ELFAQ-200002",
+      "action": "removed",
+      "company": "Elf Aquitaine"
+    },
+    {
+      "date": "2000-02-21",
+      "ticker": "TF1-200512",
+      "action": "added",
+      "company": "TF1"
+    },
+    {
+      "date": "2000-04-03",
+      "ticker": "CCF-200004",
+      "action": "removed",
+      "company": "CCF"
+    },
+    {
+      "date": "2000-04-03",
+      "ticker": "ORANG-200109",
+      "action": "added",
+      "company": "Orange (FT subsidiary)"
+    },
+    {
+      "date": "2000-05-10",
+      "ticker": "LR.PA",
+      "action": "removed",
+      "company": "Legrand"
+    },
+    {
+      "date": "2000-05-10",
+      "ticker": "SW.PA",
+      "action": "added",
+      "company": "Sodexo"
+    },
+    {
+      "date": "2001-05-07",
+      "ticker": "EQUAN-200105",
+      "action": "removed",
+      "company": "Equant"
+    },
+    {
+      "date": "2001-05-07",
+      "ticker": "VIE.PA",
+      "action": "added",
+      "company": "Vivendi Environnement"
+    },
+    {
+      "date": "2001-09-17",
+      "ticker": "ORANG-200109",
+      "action": "removed",
+      "company": "Orange (FT subsidiary)"
+    },
+    {
+      "date": "2001-09-17",
+      "ticker": "EUROT-199903",
+      "action": "added",
+      "company": "Eurotunnel"
+    },
+    {
+      "date": "2002-02-18",
+      "ticker": "USINO-200202",
+      "action": "removed",
+      "company": "Usinor"
+    },
+    {
+      "date": "2002-02-18",
+      "ticker": "DSY.PA",
+      "action": "added",
+      "company": "Dassault Systemes"
+    },
+    {
+      "date": "2002-04-03",
+      "ticker": "DSY.PA",
+      "action": "removed",
+      "company": "Dassault Systemes"
+    },
+    {
+      "date": "2002-04-03",
+      "ticker": "DG.PA",
+      "action": "added",
+      "company": "Vinci"
+    },
+    {
+      "date": "2002-08-06",
+      "ticker": "EUROT-199903",
+      "action": "removed",
+      "company": "Eurotunnel"
+    },
+    {
+      "date": "2002-08-06",
+      "ticker": "ACA.PA",
+      "action": "added",
+      "company": "Credit Agricole"
+    },
+    {
+      "date": "2003-05-21",
+      "ticker": "CRELY-200305",
+      "action": "removed",
+      "company": "Credit Lyonnais"
+    },
+    {
+      "date": "2003-05-21",
+      "ticker": "RI.PA",
+      "action": "added",
+      "company": "Pernod Ricard"
+    },
+    {
+      "date": "2004-06-21",
+      "ticker": "CAP.PA",
+      "action": "removed",
+      "company": "Cap Gemini"
+    },
+    {
+      "date": "2004-06-21",
+      "ticker": "AVENT-200409",
+      "action": "added",
+      "company": "Aventis"
+    },
+    {
+      "date": "2004-09-30",
+      "ticker": "AVENT-200409",
+      "action": "removed",
+      "company": "Aventis"
+    },
+    {
+      "date": "2004-09-30",
+      "ticker": "PUB.PA",
+      "action": "added",
+      "company": "Publicis Groupe"
+    },
+    {
+      "date": "2005-01-03",
+      "ticker": "SW.PA",
+      "action": "removed",
+      "company": "Sodexo"
+    },
+    {
+      "date": "2005-01-03",
+      "ticker": "VANTI-200706",
+      "action": "removed",
+      "company": "Thomson Multimedia"
+    },
+    {
+      "date": "2005-01-03",
+      "ticker": "EL.PA",
+      "action": "added",
+      "company": "Essilor"
+    },
+    {
+      "date": "2005-01-03",
+      "ticker": "CAP.PA",
+      "action": "added",
+      "company": "Cap Gemini"
+    },
+    {
+      "date": "2005-04-18",
+      "ticker": "CANAL-200504",
+      "action": "removed",
+      "company": "Canal+"
+    },
+    {
+      "date": "2005-04-18",
+      "ticker": "ARCELO-200609",
+      "action": "added",
+      "company": "Arcelor"
+    },
+    {
+      "date": "2005-09-01",
+      "ticker": "CASINO-200509",
+      "action": "removed",
+      "company": "Casino"
+    },
+    {
+      "date": "2005-09-01",
+      "ticker": "GDF-200807",
+      "action": "added",
+      "company": "Gaz de France"
+    },
+    {
+      "date": "2005-12-19",
+      "ticker": "TF1-200512",
+      "action": "removed",
+      "company": "TF1"
+    },
+    {
+      "date": "2005-12-19",
+      "ticker": "EDF-201512",
+      "action": "added",
+      "company": "EDF"
+    },
+    {
+      "date": "2006-07-31",
+      "ticker": "HO.PA",
+      "action": "removed",
+      "company": "Thales"
+    },
+    {
+      "date": "2006-07-31",
+      "ticker": "ALO.PA",
+      "action": "added",
+      "company": "Alstom"
+    },
+    {
+      "date": "2006-09-18",
+      "ticker": "ARCELO-200609",
+      "action": "removed",
+      "company": "Arcelor"
+    },
+    {
+      "date": "2006-09-18",
+      "ticker": "MT.PA",
+      "action": "added",
+      "company": "ArcelorMittal"
+    },
+    {
+      "date": "2006-12-18",
+      "ticker": "PUB.PA",
+      "action": "removed",
+      "company": "Publicis Groupe"
+    },
+    {
+      "date": "2006-12-18",
+      "ticker": "VLLRC-201406",
+      "action": "added",
+      "company": "Vallourec"
+    },
+    {
+      "date": "2007-06-18",
+      "ticker": "AGF-200706",
+      "action": "removed",
+      "company": "AGF"
+    },
+    {
+      "date": "2007-06-18",
+      "ticker": "FR.PA",
+      "action": "removed",
+      "company": "Valeo"
+    },
+    {
+      "date": "2007-06-18",
+      "ticker": "AF.PA",
+      "action": "added",
+      "company": "Air France-KLM"
+    },
+    {
+      "date": "2007-06-18",
+      "ticker": "URW.PA",
+      "action": "added",
+      "company": "Unibail-Rodamco"
+    },
+    {
+      "date": "2008-07-21",
+      "ticker": "GDF-200807",
+      "action": "removed",
+      "company": "Gaz de France"
+    },
+    {
+      "date": "2008-07-21",
+      "ticker": "SENVR-201112",
+      "action": "added",
+      "company": "Suez Environnement"
+    },
+    {
+      "date": "2009-09-21",
+      "ticker": "AF.PA",
+      "action": "removed",
+      "company": "Air France-KLM"
+    },
+    {
+      "date": "2009-09-21",
+      "ticker": "TECHN-202003",
+      "action": "added",
+      "company": "Technip"
+    },
+    {
+      "date": "2010-09-20",
+      "ticker": "DEXIA-201009",
+      "action": "removed",
+      "company": "Dexia"
+    },
+    {
+      "date": "2010-09-20",
+      "ticker": "MMB.PA",
+      "action": "removed",
+      "company": "Lagardere"
+    },
+    {
+      "date": "2010-09-20",
+      "ticker": "NATIX-201109",
+      "action": "added",
+      "company": "Natixis"
+    },
+    {
+      "date": "2010-09-20",
+      "ticker": "PUB.PA",
+      "action": "added",
+      "company": "Publicis Groupe"
+    },
+    {
+      "date": "2011-09-19",
+      "ticker": "NATIX-201109",
+      "action": "removed",
+      "company": "Natixis"
+    },
+    {
+      "date": "2011-09-19",
+      "ticker": "SAF.PA",
+      "action": "added",
+      "company": "Safran"
+    },
+    {
+      "date": "2011-12-19",
+      "ticker": "SENVR-201112",
+      "action": "removed",
+      "company": "Suez Environnement"
+    },
+    {
+      "date": "2011-12-19",
+      "ticker": "LR.PA",
+      "action": "added",
+      "company": "Legrand"
+    },
+    {
+      "date": "2012-09-24",
+      "ticker": "STLAP.PA",
+      "action": "removed",
+      "company": "PSA Peugeot Citroen"
+    },
+    {
+      "date": "2012-09-24",
+      "ticker": "SOLVY-201809",
+      "action": "added",
+      "company": "Solvay"
+    },
+    {
+      "date": "2012-12-24",
+      "ticker": "ALU-201224",
+      "action": "removed",
+      "company": "Alcatel-Lucent"
+    },
+    {
+      "date": "2012-12-24",
+      "ticker": "GEMAL-201503",
+      "action": "added",
+      "company": "Gemalto"
+    },
+    {
+      "date": "2013-12-23",
+      "ticker": "STM.PA",
+      "action": "removed",
+      "company": "STMicroelectronics"
+    },
+    {
+      "date": "2013-12-23",
+      "ticker": "ALU-201601",
+      "action": "added",
+      "company": "Alcatel-Lucent"
+    },
+    {
+      "date": "2014-06-23",
+      "ticker": "VLLRC-201406",
+      "action": "removed",
+      "company": "Vallourec"
+    },
+    {
+      "date": "2014-06-23",
+      "ticker": "FR.PA",
+      "action": "added",
+      "company": "Valeo"
+    },
+    {
+      "date": "2015-03-23",
+      "ticker": "GEMAL-201503",
+      "action": "removed",
+      "company": "Gemalto"
+    },
+    {
+      "date": "2015-03-23",
+      "ticker": "STLAP.PA",
+      "action": "added",
+      "company": "PSA Peugeot Citroen"
+    },
+    {
+      "date": "2015-12-21",
+      "ticker": "EDF-201512",
+      "action": "removed",
+      "company": "EDF"
+    },
+    {
+      "date": "2015-12-21",
+      "ticker": "LI.PA",
+      "action": "added",
+      "company": "Klepierre"
+    },
+    {
+      "date": "2016-01-07",
+      "ticker": "ALU-201601",
+      "action": "removed",
+      "company": "Alcatel-Lucent"
+    },
+    {
+      "date": "2016-01-07",
+      "ticker": "NOKIA-201709",
+      "action": "added",
+      "company": "Nokia"
+    },
+    {
+      "date": "2016-03-21",
+      "ticker": "ALO.PA",
+      "action": "removed",
+      "company": "Alstom"
+    },
+    {
+      "date": "2016-03-21",
+      "ticker": "SW.PA",
+      "action": "added",
+      "company": "Sodexo"
+    },
+    {
+      "date": "2017-03-20",
+      "ticker": "LI.PA",
+      "action": "removed",
+      "company": "Klepierre"
+    },
+    {
+      "date": "2017-03-20",
+      "ticker": "ATOS-202109",
+      "action": "added",
+      "company": "Atos"
+    },
+    {
+      "date": "2017-09-18",
+      "ticker": "NOKIA-201709",
+      "action": "removed",
+      "company": "Nokia"
+    },
+    {
+      "date": "2017-09-18",
+      "ticker": "STM.PA",
+      "action": "added",
+      "company": "STMicroelectronics"
+    },
+    {
+      "date": "2018-06-18",
+      "ticker": "LAFARGE-201806",
+      "action": "removed",
+      "company": "LafargeHolcim"
+    },
+    {
+      "date": "2018-06-18",
+      "ticker": "RMS.PA",
+      "action": "added",
+      "company": "Hermes International"
+    },
+    {
+      "date": "2018-09-24",
+      "ticker": "SOLVY-201809",
+      "action": "removed",
+      "company": "Solvay"
+    },
+    {
+      "date": "2018-09-24",
+      "ticker": "DSY.PA",
+      "action": "added",
+      "company": "Dassault Systemes"
+    },
+    {
+      "date": "2019-06-24",
+      "ticker": "FR.PA",
+      "action": "removed",
+      "company": "Valeo"
+    },
+    {
+      "date": "2019-06-24",
+      "ticker": "HO.PA",
+      "action": "added",
+      "company": "Thales"
+    },
+    {
+      "date": "2020-03-23",
+      "ticker": "TECHN-202003",
+      "action": "removed",
+      "company": "TechnipFMC"
+    },
+    {
+      "date": "2020-03-23",
+      "ticker": "WLN.PA",
+      "action": "added",
+      "company": "Worldline"
+    },
+    {
+      "date": "2020-06-22",
+      "ticker": "SW.PA",
+      "action": "removed",
+      "company": "Sodexo"
+    },
+    {
+      "date": "2020-06-22",
+      "ticker": "TEP.PA",
+      "action": "added",
+      "company": "Teleperformance"
+    },
+    {
+      "date": "2020-09-21",
+      "ticker": "AC.PA",
+      "action": "removed",
+      "company": "Accor"
+    },
+    {
+      "date": "2020-09-21",
+      "ticker": "ALO.PA",
+      "action": "added",
+      "company": "Alstom"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "ATOS-202109",
+      "action": "removed",
+      "company": "Atos"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "ERF.PA",
+      "action": "added",
+      "company": "Eurofins Scientific"
+    },
+    {
+      "date": "2023-06-19",
+      "ticker": "VIV.PA",
+      "action": "removed",
+      "company": "Vivendi"
+    },
+    {
+      "date": "2023-06-19",
+      "ticker": "EDEN.PA",
+      "action": "added",
+      "company": "Edenred"
+    },
+    {
+      "date": "2023-12-18",
+      "ticker": "WLN.PA",
+      "action": "removed",
+      "company": "Worldline"
+    },
+    {
+      "date": "2023-12-18",
+      "ticker": "VIV.PA",
+      "action": "added",
+      "company": "Vivendi"
+    },
+    {
+      "date": "2024-03-18",
+      "ticker": "ALO.PA",
+      "action": "removed",
+      "company": "Alstom"
+    },
+    {
+      "date": "2024-03-18",
+      "ticker": "AC.PA",
+      "action": "added",
+      "company": "Accor"
+    },
+    {
+      "date": "2024-12-23",
+      "ticker": "VIV.PA",
+      "action": "removed",
+      "company": "Vivendi"
+    },
+    {
+      "date": "2024-12-23",
+      "ticker": "BVI.PA",
+      "action": "added",
+      "company": "Bureau Veritas"
+    },
+    {
+      "date": "2025-09-22",
+      "ticker": "TEP.PA",
+      "action": "removed",
+      "company": "Teleperformance"
+    },
+    {
+      "date": "2025-09-22",
+      "ticker": "ENX.PA",
+      "action": "added",
+      "company": "Euronext"
+    },
+    {
+      "date": "2025-12-22",
+      "ticker": "EDEN.PA",
+      "action": "removed",
+      "company": "Edenred"
+    },
+    {
+      "date": "2025-12-22",
+      "ticker": "FGR.PA",
+      "action": "added",
+      "company": "Eiffage"
+    }
+  ],
+  "tickers": {
+    "AC.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": "2020-09-21"
+      },
+      {
+        "added": "2024-03-18",
+        "removed": null
+      }
+    ],
+    "ACA.PA": [
+      {
+        "added": "2002-08-06",
+        "removed": null
+      }
+    ],
+    "AI.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": null
+      }
+    ],
+    "AIR.PA": [
+      {
+        "added": "1999-06-21",
+        "removed": null
+      }
+    ],
+    "BN.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": null
+      }
+    ],
+    "BNP.PA": [
+      {
+        "added": "1993-11-17",
+        "removed": null
+      }
+    ],
+    "BVI.PA": [
+      {
+        "added": "2024-12-23",
+        "removed": null
+      }
+    ],
+    "CA.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": null
+      }
+    ],
+    "CAP.PA": [
+      {
+        "added": "1988-05-27",
+        "removed": "1993-11-17"
+      },
+      {
+        "added": "1997-11-17",
+        "removed": "2004-06-21"
+      },
+      {
+        "added": "2005-01-03",
+        "removed": null
+      }
+    ],
+    "CS.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": null
+      }
+    ],
+    "DG.PA": [
+      {
+        "added": "2002-04-03",
+        "removed": null
+      }
+    ],
+    "DSY.PA": [
+      {
+        "added": "2002-02-18",
+        "removed": "2002-04-03"
+      },
+      {
+        "added": "2018-09-24",
+        "removed": null
+      }
+    ],
+    "EL.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": "1990-05-02"
+      },
+      {
+        "added": "2005-01-03",
+        "removed": null
+      }
+    ],
+    "EN.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": null
+      }
+    ],
+    "ENGI.PA": [
+      {
+        "added": "1997-12-15",
+        "removed": null
+      }
+    ],
+    "ENX.PA": [
+      {
+        "added": "2025-09-22",
+        "removed": null
+      }
+    ],
+    "ERF.PA": [
+      {
+        "added": "2021-09-20",
+        "removed": null
+      }
+    ],
+    "FGR.PA": [
+      {
+        "added": "2025-12-22",
+        "removed": null
+      }
+    ],
+    "GLE.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": null
+      }
+    ],
+    "HO.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": "2006-07-31"
+      },
+      {
+        "added": "2019-06-24",
+        "removed": null
+      }
+    ],
+    "KER.PA": [
+      {
+        "added": "1995-02-09",
+        "removed": null
+      }
+    ],
+    "LR.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": "2000-05-10"
+      },
+      {
+        "added": "2011-12-19",
+        "removed": null
+      }
+    ],
+    "MC.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": null
+      }
+    ],
+    "ML.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": null
+      }
+    ],
+    "MT.PA": [
+      {
+        "added": "2006-09-18",
+        "removed": null
+      }
+    ],
+    "OR.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": null
+      }
+    ],
+    "ORA.PA": [
+      {
+        "added": "1997-05-12",
+        "removed": null
+      }
+    ],
+    "PUB.PA": [
+      {
+        "added": "2004-09-30",
+        "removed": "2006-12-18"
+      },
+      {
+        "added": "2010-09-20",
+        "removed": null
+      }
+    ],
+    "RI.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": "1999-06-21"
+      },
+      {
+        "added": "2003-05-21",
+        "removed": null
+      }
+    ],
+    "RMS.PA": [
+      {
+        "added": "2018-06-18",
+        "removed": null
+      }
+    ],
+    "RNO.PA": [
+      {
+        "added": "1995-02-09",
+        "removed": null
+      }
+    ],
+    "SAF.PA": [
+      {
+        "added": "2011-09-19",
+        "removed": null
+      }
+    ],
+    "SAN.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": null
+      }
+    ],
+    "SGO.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": null
+      }
+    ],
+    "STLAP.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": "2012-09-24"
+      },
+      {
+        "added": "2015-03-23",
+        "removed": null
+      }
+    ],
+    "STM.PA": [
+      {
+        "added": "1997-12-15",
+        "removed": "2013-12-23"
+      },
+      {
+        "added": "2017-09-18",
+        "removed": null
+      }
+    ],
+    "SU.PA": [
+      {
+        "added": "1990-12-10",
+        "removed": null
+      }
+    ],
+    "TTE.PA": [
+      {
+        "added": "1991-12-02",
+        "removed": null
+      }
+    ],
+    "URW.PA": [
+      {
+        "added": "2007-06-18",
+        "removed": null
+      }
+    ],
+    "VIE.PA": [
+      {
+        "added": "2001-05-07",
+        "removed": null
+      }
+    ],
+    "AF.PA": [
+      {
+        "added": "2007-06-18",
+        "removed": "2009-09-21"
+      }
+    ],
+    "AGF-200706": [
+      {
+        "added": "1995-03-06",
+        "removed": "2007-06-18"
+      }
+    ],
+    "ALO.PA": [
+      {
+        "added": "2006-07-31",
+        "removed": "2016-03-21"
+      },
+      {
+        "added": "2020-09-21",
+        "removed": "2024-03-18"
+      }
+    ],
+    "ALU-201224": [
+      {
+        "added": "1989-03-06",
+        "removed": "2012-12-24"
+      }
+    ],
+    "ALU-201601": [
+      {
+        "added": "2013-12-23",
+        "removed": "2016-01-07"
+      }
+    ],
+    "ARCELO-200609": [
+      {
+        "added": "2005-04-18",
+        "removed": "2006-09-18"
+      }
+    ],
+    "ARJOM-199112": [
+      {
+        "added": "1987-12-31",
+        "removed": "1991-12-02"
+      }
+    ],
+    "ATOS-202109": [
+      {
+        "added": "2017-03-20",
+        "removed": "2021-09-20"
+      }
+    ],
+    "AVENT-200409": [
+      {
+        "added": "2004-06-21",
+        "removed": "2004-09-30"
+      }
+    ],
+    "BIC-199603": [
+      {
+        "added": "1995-11-14",
+        "removed": "1996-03-04"
+      }
+    ],
+    "CANAL-200504": [
+      {
+        "added": "1990-05-02",
+        "removed": "2005-04-18"
+      }
+    ],
+    "CASINO-200509": [
+      {
+        "added": "1987-12-31",
+        "removed": "1995-02-09"
+      },
+      {
+        "added": "1999-09-20",
+        "removed": "2005-09-01"
+      }
+    ],
+    "CBANK-199503": [
+      {
+        "added": "1987-12-31",
+        "removed": "1995-03-06"
+      }
+    ],
+    "CCF-200004": [
+      {
+        "added": "1988-08-03",
+        "removed": "1997-05-12"
+      },
+      {
+        "added": "1999-09-20",
+        "removed": "2000-04-03"
+      }
+    ],
+    "CGE-198903": [
+      {
+        "added": "1987-12-31",
+        "removed": "1989-03-06"
+      }
+    ],
+    "CGIP-199502": [
+      {
+        "added": "1987-12-31",
+        "removed": "1995-02-09"
+      }
+    ],
+    "CHARG-199311": [
+      {
+        "added": "1987-12-31",
+        "removed": "1993-11-17"
+      }
+    ],
+    "CLUBM-199311": [
+      {
+        "added": "1987-12-31",
+        "removed": "1993-11-17"
+      }
+    ],
+    "CREFO-199511": [
+      {
+        "added": "1987-12-31",
+        "removed": "1995-11-14"
+      }
+    ],
+    "CRELY-200305": [
+      {
+        "added": "1997-12-15",
+        "removed": "2003-05-21"
+      }
+    ],
+    "CRLOC-199712": [
+      {
+        "added": "1993-11-17",
+        "removed": "1997-12-15"
+      }
+    ],
+    "DARTY-198805": [
+      {
+        "added": "1987-12-31",
+        "removed": "1988-08-03"
+      }
+    ],
+    "DEXIA-201009": [
+      {
+        "added": "1999-03-08",
+        "removed": "2010-09-20"
+      }
+    ],
+    "DUMEZ-199010": [
+      {
+        "added": "1987-12-31",
+        "removed": "1990-12-10"
+      }
+    ],
+    "EDEN.PA": [
+      {
+        "added": "2023-06-19",
+        "removed": "2025-12-22"
+      }
+    ],
+    "EDF-201512": [
+      {
+        "added": "2005-12-19",
+        "removed": "2015-12-21"
+      }
+    ],
+    "EDISN-199502": [
+      {
+        "added": "1992-03-19",
+        "removed": "1995-02-09"
+      }
+    ],
+    "ELFAQ-200002": [
+      {
+        "added": "1987-12-31",
+        "removed": "2000-02-21"
+      }
+    ],
+    "EQUAN-200105": [
+      {
+        "added": "1999-09-20",
+        "removed": "2001-05-07"
+      }
+    ],
+    "ERIDA-199909": [
+      {
+        "added": "1995-03-06",
+        "removed": "1999-09-20"
+      }
+    ],
+    "EUROT-199903": [
+      {
+        "added": "1995-02-09",
+        "removed": "1996-11-18"
+      },
+      {
+        "added": "2001-09-17",
+        "removed": "2002-08-06"
+      }
+    ],
+    "FR.PA": [
+      {
+        "added": "1996-11-18",
+        "removed": "2007-06-18"
+      },
+      {
+        "added": "2014-06-23",
+        "removed": "2019-06-24"
+      }
+    ],
+    "GDF-200807": [
+      {
+        "added": "2005-09-01",
+        "removed": "2008-07-21"
+      }
+    ],
+    "GEMAL-201503": [
+      {
+        "added": "2012-12-24",
+        "removed": "2015-03-23"
+      }
+    ],
+    "HACH-199403": [
+      {
+        "added": "1987-12-31",
+        "removed": "1994-03-22"
+      }
+    ],
+    "HAVAS-198805": [
+      {
+        "added": "1987-12-31",
+        "removed": "1988-08-03"
+      }
+    ],
+    "LAFARGE-201806": [
+      {
+        "added": "1987-12-31",
+        "removed": "2018-06-18"
+      }
+    ],
+    "LI.PA": [
+      {
+        "added": "2015-12-21",
+        "removed": "2017-03-20"
+      }
+    ],
+    "LYONN-199712": [
+      {
+        "added": "1987-12-31",
+        "removed": "1997-12-15"
+      }
+    ],
+    "MATRA-199903": [
+      {
+        "added": "1990-05-02",
+        "removed": "1999-03-08"
+      }
+    ],
+    "MERLI-199012": [
+      {
+        "added": "1988-05-27",
+        "removed": "1990-12-10"
+      }
+    ],
+    "MMB.PA": [
+      {
+        "added": "1994-03-22",
+        "removed": "2010-09-20"
+      }
+    ],
+    "NATIX-201109": [
+      {
+        "added": "2010-09-20",
+        "removed": "2011-09-19"
+      }
+    ],
+    "NAVMX-199005": [
+      {
+        "added": "1987-12-31",
+        "removed": "1990-05-02"
+      }
+    ],
+    "NOKIA-201709": [
+      {
+        "added": "2016-01-07",
+        "removed": "2017-09-18"
+      }
+    ],
+    "OCCID-198805": [
+      {
+        "added": "1987-12-31",
+        "removed": "1988-05-27"
+      }
+    ],
+    "ORANG-200109": [
+      {
+        "added": "2000-04-03",
+        "removed": "2001-09-17"
+      }
+    ],
+    "PARIB-199909": [
+      {
+        "added": "1987-12-31",
+        "removed": "1999-09-20"
+      }
+    ],
+    "PECHL-199005": [
+      {
+        "added": "1987-12-31",
+        "removed": "1990-05-02"
+      }
+    ],
+    "PERRI-199203": [
+      {
+        "added": "1990-12-10",
+        "removed": "1992-03-19"
+      }
+    ],
+    "PROMO-199909": [
+      {
+        "added": "1993-11-17",
+        "removed": "1999-09-20"
+      }
+    ],
+    "SENVR-201112": [
+      {
+        "added": "2008-07-21",
+        "removed": "2011-12-19"
+      }
+    ],
+    "SOLVY-201809": [
+      {
+        "added": "2012-09-24",
+        "removed": "2018-09-24"
+      }
+    ],
+    "STLOU-199503": [
+      {
+        "added": "1987-12-31",
+        "removed": "1995-03-06"
+      }
+    ],
+    "SUEZ-199712": [
+      {
+        "added": "1987-12-31",
+        "removed": "1997-12-15"
+      }
+    ],
+    "SW.PA": [
+      {
+        "added": "2000-05-10",
+        "removed": "2005-01-03"
+      },
+      {
+        "added": "2016-03-21",
+        "removed": "2020-06-22"
+      }
+    ],
+    "TECHN-202003": [
+      {
+        "added": "2009-09-21",
+        "removed": "2020-03-23"
+      }
+    ],
+    "TELEM-198805": [
+      {
+        "added": "1987-12-31",
+        "removed": "1988-05-27"
+      }
+    ],
+    "TEP.PA": [
+      {
+        "added": "2020-06-22",
+        "removed": "2025-09-22"
+      }
+    ],
+    "TF1-200512": [
+      {
+        "added": "2000-02-21",
+        "removed": "2005-12-19"
+      }
+    ],
+    "UAP-199711": [
+      {
+        "added": "1990-05-02",
+        "removed": "1997-11-17"
+      }
+    ],
+    "USINO-200202": [
+      {
+        "added": "1996-03-04",
+        "removed": "2002-02-18"
+      }
+    ],
+    "VANTI-200706": [
+      {
+        "added": "1988-08-03",
+        "removed": "2005-01-03"
+      }
+    ],
+    "VIV.PA": [
+      {
+        "added": "1987-12-31",
+        "removed": "2023-06-19"
+      },
+      {
+        "added": "2023-12-18",
+        "removed": "2024-12-23"
+      }
+    ],
+    "VLLRC-201406": [
+      {
+        "added": "2006-12-18",
+        "removed": "2014-06-23"
+      }
+    ],
+    "WLN.PA": [
+      {
+        "added": "2020-03-23",
+        "removed": "2023-12-18"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1391 @@
+{
+  "index_name": "EURO STOXX 50 Membership History",
+  "last_updated": "2026-03-01",
+  "source": "STOXX Ltd. official press releases + Wikipedia EURO STOXX 50 + financial news (Bloomberg, Handelsblatt, MarketScreener, ETF Strategy, The Corner, BBVA IR)",
+  "notes": "Point-in-time membership data with add/remove dates. Delisted companies use placeholder tickers (SLUG-YYYYMM). Companies that were renamed use their current ticker for the entire period. Multi-exchange index: .PA (Paris), .DE (XETRA), .AS (Amsterdam), .MI (Milan), .MC (Madrid), .HE (Helsinki), .BR (Brussels), .IR (Dublin).",
+  "total_events": 138,
+  "unique_tickers": 87,
+  "current_members": 50,
+  "events": [
+    {
+      "date": "1998-02-26",
+      "ticker": "AI.PA",
+      "action": "added",
+      "company": "Air Liquide"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "ALU-200409",
+      "action": "added",
+      "company": "Alcatel"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "CS.PA",
+      "action": "added",
+      "company": "AXA"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "BNP.PA",
+      "action": "added",
+      "company": "BNP"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "CA.PA",
+      "action": "added",
+      "company": "Carrefour"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "BN.PA",
+      "action": "added",
+      "company": "Danone"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "FP.PA",
+      "action": "added",
+      "company": "Total"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "TTE-200009",
+      "action": "added",
+      "company": "Elf Aquitaine"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "ENGI.PA",
+      "action": "added",
+      "company": "Suez"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "MC.PA",
+      "action": "added",
+      "company": "LVMH"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "OR.PA",
+      "action": "added",
+      "company": "L'Oreal"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "PRBS-200006",
+      "action": "added",
+      "company": "Paribas"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "PRMD-199909",
+      "action": "added",
+      "company": "Promodes"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "RPR-199909",
+      "action": "added",
+      "company": "Rhone-Poulenc"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "SGO.PA",
+      "action": "added",
+      "company": "Saint-Gobain"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "SAN.PA",
+      "action": "added",
+      "company": "Sanofi"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "GLE.PA",
+      "action": "added",
+      "company": "Societe Generale"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "VIV.PA",
+      "action": "added",
+      "company": "Vivendi"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "SU.PA",
+      "action": "added",
+      "company": "Schneider Electric"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "ALV.DE",
+      "action": "added",
+      "company": "Allianz"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "BAS.DE",
+      "action": "added",
+      "company": "BASF"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "BAYN.DE",
+      "action": "added",
+      "company": "Bayer"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "BMW.DE",
+      "action": "added",
+      "company": "BMW"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "MBG.DE",
+      "action": "added",
+      "company": "Daimler-Benz"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "DBK.DE",
+      "action": "added",
+      "company": "Deutsche Bank"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "DTE.DE",
+      "action": "added",
+      "company": "Deutsche Telekom"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "EOAN.DE",
+      "action": "added",
+      "company": "E.ON"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "MUV2.DE",
+      "action": "added",
+      "company": "Munich Re"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "RWE.DE",
+      "action": "added",
+      "company": "RWE"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "SAP.DE",
+      "action": "added",
+      "company": "SAP"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "SIE.DE",
+      "action": "added",
+      "company": "Siemens"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "AGN-200109",
+      "action": "added",
+      "company": "Aegon"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "INGA.AS",
+      "action": "added",
+      "company": "ING Group"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "PHG-202209",
+      "action": "added",
+      "company": "Philips"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "RDSA-200509",
+      "action": "added",
+      "company": "Royal Dutch Shell"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "UNA-202012",
+      "action": "added",
+      "company": "Unilever NV"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "ENEL.MI",
+      "action": "added",
+      "company": "Enel"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "ENI.MI",
+      "action": "added",
+      "company": "Eni"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "G.MI",
+      "action": "added",
+      "company": "Assicurazioni Generali"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "TIT-200509",
+      "action": "added",
+      "company": "Telecom Italia"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "UCG.MI",
+      "action": "added",
+      "company": "UniCredit"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "BBVA.MC",
+      "action": "added",
+      "company": "BBVA"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "REP.MC",
+      "action": "added",
+      "company": "Repsol"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "SAN.MC",
+      "action": "added",
+      "company": "Banco Santander"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "TEF.MC",
+      "action": "added",
+      "company": "Telefonica"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "NOKIA.HE",
+      "action": "added",
+      "company": "Nokia"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "DXIA-201209",
+      "action": "added",
+      "company": "Dexia"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "FORT-200810",
+      "action": "added",
+      "company": "Fortis"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "CRH-201009",
+      "action": "added",
+      "company": "CRH"
+    },
+    {
+      "date": "1998-02-26",
+      "ticker": "STM.PA",
+      "action": "added",
+      "company": "STMicroelectronics"
+    },
+    {
+      "date": "1999-09-20",
+      "ticker": "RPR-199909",
+      "action": "removed",
+      "company": "Rhone-Poulenc"
+    },
+    {
+      "date": "1999-09-20",
+      "ticker": "PRMD-199909",
+      "action": "removed",
+      "company": "Promodes"
+    },
+    {
+      "date": "1999-09-20",
+      "ticker": "MMN-200003",
+      "action": "added",
+      "company": "Mannesmann"
+    },
+    {
+      "date": "1999-09-20",
+      "ticker": "RNO.PA",
+      "action": "added",
+      "company": "Renault"
+    },
+    {
+      "date": "2000-03-20",
+      "ticker": "MMN-200003",
+      "action": "removed",
+      "company": "Mannesmann"
+    },
+    {
+      "date": "2000-03-20",
+      "ticker": "ACA.PA",
+      "action": "added",
+      "company": "Credit Agricole"
+    },
+    {
+      "date": "2000-06-19",
+      "ticker": "PRBS-200006",
+      "action": "removed",
+      "company": "Paribas"
+    },
+    {
+      "date": "2000-06-19",
+      "ticker": "ASML.AS",
+      "action": "added",
+      "company": "ASML"
+    },
+    {
+      "date": "2000-09-18",
+      "ticker": "TTE-200009",
+      "action": "removed",
+      "company": "Elf Aquitaine"
+    },
+    {
+      "date": "2000-09-18",
+      "ticker": "ORA.PA",
+      "action": "added",
+      "company": "Orange"
+    },
+    {
+      "date": "2001-09-24",
+      "ticker": "AGN-200109",
+      "action": "removed",
+      "company": "Aegon"
+    },
+    {
+      "date": "2001-09-24",
+      "ticker": "DB1.DE",
+      "action": "added",
+      "company": "Deutsche Boerse"
+    },
+    {
+      "date": "2004-09-20",
+      "ticker": "ALU-200409",
+      "action": "removed",
+      "company": "Alcatel"
+    },
+    {
+      "date": "2004-09-20",
+      "ticker": "MT.AS",
+      "action": "added",
+      "company": "ArcelorMittal"
+    },
+    {
+      "date": "2005-09-19",
+      "ticker": "RDSA-200509",
+      "action": "removed",
+      "company": "Royal Dutch Shell"
+    },
+    {
+      "date": "2005-09-19",
+      "ticker": "TIT-200509",
+      "action": "removed",
+      "company": "Telecom Italia"
+    },
+    {
+      "date": "2005-09-19",
+      "ticker": "IBE.MC",
+      "action": "added",
+      "company": "Iberdrola"
+    },
+    {
+      "date": "2005-09-19",
+      "ticker": "DHL.DE",
+      "action": "added",
+      "company": "Deutsche Post"
+    },
+    {
+      "date": "2008-10-20",
+      "ticker": "FORT-200810",
+      "action": "removed",
+      "company": "Fortis"
+    },
+    {
+      "date": "2008-10-20",
+      "ticker": "ABI.BR",
+      "action": "added",
+      "company": "Anheuser-Busch InBev"
+    },
+    {
+      "date": "2009-09-21",
+      "ticker": "STM.PA",
+      "action": "removed",
+      "company": "STMicroelectronics"
+    },
+    {
+      "date": "2009-09-21",
+      "ticker": "ISP.MI",
+      "action": "added",
+      "company": "Intesa Sanpaolo"
+    },
+    {
+      "date": "2010-09-20",
+      "ticker": "CRH-201009",
+      "action": "removed",
+      "company": "CRH"
+    },
+    {
+      "date": "2010-09-20",
+      "ticker": "URW-201909",
+      "action": "added",
+      "company": "Unibail-Rodamco"
+    },
+    {
+      "date": "2011-09-19",
+      "ticker": "RWE.DE",
+      "action": "removed",
+      "company": "RWE"
+    },
+    {
+      "date": "2011-09-19",
+      "ticker": "ITX.MC",
+      "action": "added",
+      "company": "Inditex"
+    },
+    {
+      "date": "2012-09-24",
+      "ticker": "EOAN.DE",
+      "action": "removed",
+      "company": "E.ON"
+    },
+    {
+      "date": "2012-09-24",
+      "ticker": "DXIA-201209",
+      "action": "removed",
+      "company": "Dexia"
+    },
+    {
+      "date": "2012-09-24",
+      "ticker": "EI-201910",
+      "action": "added",
+      "company": "Essilor"
+    },
+    {
+      "date": "2012-09-24",
+      "ticker": "DG.PA",
+      "action": "added",
+      "company": "Vinci"
+    },
+    {
+      "date": "2013-09-23",
+      "ticker": "NOKIA.HE",
+      "action": "removed",
+      "company": "Nokia"
+    },
+    {
+      "date": "2013-09-23",
+      "ticker": "VIV.PA",
+      "action": "removed",
+      "company": "Vivendi"
+    },
+    {
+      "date": "2013-09-23",
+      "ticker": "KNEBV-201709",
+      "action": "added",
+      "company": "Kone"
+    },
+    {
+      "date": "2013-09-23",
+      "ticker": "RI.PA",
+      "action": "added",
+      "company": "Pernod Ricard"
+    },
+    {
+      "date": "2014-09-22",
+      "ticker": "REP.MC",
+      "action": "removed",
+      "company": "Repsol"
+    },
+    {
+      "date": "2014-09-22",
+      "ticker": "NOKIA.HE",
+      "action": "added",
+      "company": "Nokia"
+    },
+    {
+      "date": "2015-09-21",
+      "ticker": "MBG.DE",
+      "action": "removed",
+      "company": "Daimler"
+    },
+    {
+      "date": "2015-09-21",
+      "ticker": "SAF.PA",
+      "action": "added",
+      "company": "Safran"
+    },
+    {
+      "date": "2016-09-19",
+      "ticker": "G.MI",
+      "action": "removed",
+      "company": "Assicurazioni Generali"
+    },
+    {
+      "date": "2016-09-19",
+      "ticker": "UCG.MI",
+      "action": "removed",
+      "company": "UniCredit"
+    },
+    {
+      "date": "2016-09-19",
+      "ticker": "CA.PA",
+      "action": "removed",
+      "company": "Carrefour"
+    },
+    {
+      "date": "2016-09-19",
+      "ticker": "ADS.DE",
+      "action": "added",
+      "company": "adidas"
+    },
+    {
+      "date": "2016-09-19",
+      "ticker": "AD.AS",
+      "action": "added",
+      "company": "Ahold Delhaize"
+    },
+    {
+      "date": "2016-09-19",
+      "ticker": "CRH.PA",
+      "action": "added",
+      "company": "CRH"
+    },
+    {
+      "date": "2017-09-18",
+      "ticker": "DBK.DE",
+      "action": "removed",
+      "company": "Deutsche Bank"
+    },
+    {
+      "date": "2017-09-18",
+      "ticker": "DB1.DE",
+      "action": "removed",
+      "company": "Deutsche Boerse"
+    },
+    {
+      "date": "2017-09-18",
+      "ticker": "SGO.PA",
+      "action": "removed",
+      "company": "Saint-Gobain"
+    },
+    {
+      "date": "2017-09-18",
+      "ticker": "KNEBV-201709",
+      "action": "removed",
+      "company": "Kone"
+    },
+    {
+      "date": "2017-09-18",
+      "ticker": "KER.PA",
+      "action": "added",
+      "company": "Kering"
+    },
+    {
+      "date": "2017-09-18",
+      "ticker": "LIN.DE",
+      "action": "added",
+      "company": "Linde"
+    },
+    {
+      "date": "2017-09-18",
+      "ticker": "AMS-202109",
+      "action": "added",
+      "company": "Amadeus"
+    },
+    {
+      "date": "2017-09-18",
+      "ticker": "RMS.PA",
+      "action": "added",
+      "company": "Hermes International"
+    },
+    {
+      "date": "2019-09-23",
+      "ticker": "URW-201909",
+      "action": "removed",
+      "company": "Unibail-Rodamco-Westfield"
+    },
+    {
+      "date": "2019-09-23",
+      "ticker": "DB1.DE",
+      "action": "added",
+      "company": "Deutsche Boerse"
+    },
+    {
+      "date": "2019-10-01",
+      "ticker": "EI-201910",
+      "action": "removed",
+      "company": "Essilor"
+    },
+    {
+      "date": "2019-10-01",
+      "ticker": "EL.PA",
+      "action": "added",
+      "company": "EssilorLuxottica"
+    },
+    {
+      "date": "2020-09-21",
+      "ticker": "GLE.PA",
+      "action": "removed",
+      "company": "Societe Generale"
+    },
+    {
+      "date": "2020-09-21",
+      "ticker": "BBVA.MC",
+      "action": "removed",
+      "company": "BBVA"
+    },
+    {
+      "date": "2020-09-21",
+      "ticker": "TEF.MC",
+      "action": "removed",
+      "company": "Telefonica"
+    },
+    {
+      "date": "2020-09-21",
+      "ticker": "ORA.PA",
+      "action": "removed",
+      "company": "Orange"
+    },
+    {
+      "date": "2020-09-21",
+      "ticker": "NOKIA.HE",
+      "action": "removed",
+      "company": "Nokia"
+    },
+    {
+      "date": "2020-09-21",
+      "ticker": "ADYEN.AS",
+      "action": "added",
+      "company": "Adyen"
+    },
+    {
+      "date": "2020-09-21",
+      "ticker": "PRX.AS",
+      "action": "added",
+      "company": "Prosus"
+    },
+    {
+      "date": "2020-09-21",
+      "ticker": "VNA.DE",
+      "action": "added",
+      "company": "Vonovia"
+    },
+    {
+      "date": "2020-09-21",
+      "ticker": "KNEBV.HE",
+      "action": "added",
+      "company": "Kone"
+    },
+    {
+      "date": "2020-09-21",
+      "ticker": "IFX.DE",
+      "action": "added",
+      "company": "Infineon Technologies"
+    },
+    {
+      "date": "2020-12-21",
+      "ticker": "UNA-202012",
+      "action": "removed",
+      "company": "Unilever NV"
+    },
+    {
+      "date": "2020-12-21",
+      "ticker": "FLTR.IR",
+      "action": "added",
+      "company": "Flutter Entertainment"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "AMS-202109",
+      "action": "removed",
+      "company": "Amadeus"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "ENGI.PA",
+      "action": "removed",
+      "company": "Engie"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "STLAM.MI",
+      "action": "added",
+      "company": "Stellantis"
+    },
+    {
+      "date": "2021-09-20",
+      "ticker": "BBVA.MC",
+      "action": "added",
+      "company": "BBVA"
+    },
+    {
+      "date": "2022-09-19",
+      "ticker": "KNEBV.HE",
+      "action": "removed",
+      "company": "Kone"
+    },
+    {
+      "date": "2022-09-19",
+      "ticker": "PHG-202209",
+      "action": "removed",
+      "company": "Philips"
+    },
+    {
+      "date": "2022-09-19",
+      "ticker": "NDA-FI.HE",
+      "action": "added",
+      "company": "Nordea Bank"
+    },
+    {
+      "date": "2022-09-19",
+      "ticker": "NOKIA.HE",
+      "action": "added",
+      "company": "Nokia"
+    },
+    {
+      "date": "2023-02-27",
+      "ticker": "LIN.DE",
+      "action": "removed",
+      "company": "Linde"
+    },
+    {
+      "date": "2023-02-27",
+      "ticker": "MBG.DE",
+      "action": "added",
+      "company": "Mercedes-Benz Group"
+    },
+    {
+      "date": "2023-09-18",
+      "ticker": "VNA.DE",
+      "action": "removed",
+      "company": "Vonovia"
+    },
+    {
+      "date": "2023-09-18",
+      "ticker": "CRH.PA",
+      "action": "removed",
+      "company": "CRH"
+    },
+    {
+      "date": "2023-09-18",
+      "ticker": "RACE.MI",
+      "action": "added",
+      "company": "Ferrari"
+    },
+    {
+      "date": "2023-09-18",
+      "ticker": "SGO.PA",
+      "action": "added",
+      "company": "Saint-Gobain"
+    },
+    {
+      "date": "2025-09-22",
+      "ticker": "NOKIA.HE",
+      "action": "removed",
+      "company": "Nokia"
+    },
+    {
+      "date": "2025-09-22",
+      "ticker": "STLAM.MI",
+      "action": "removed",
+      "company": "Stellantis"
+    },
+    {
+      "date": "2025-09-22",
+      "ticker": "RI.PA",
+      "action": "removed",
+      "company": "Pernod Ricard"
+    },
+    {
+      "date": "2025-09-22",
+      "ticker": "DBK.DE",
+      "action": "added",
+      "company": "Deutsche Bank"
+    },
+    {
+      "date": "2025-09-22",
+      "ticker": "ENR.DE",
+      "action": "added",
+      "company": "Siemens Energy"
+    },
+    {
+      "date": "2025-09-22",
+      "ticker": "ARGX.BR",
+      "action": "added",
+      "company": "argenx"
+    }
+  ],
+  "tickers": {
+    "ABI.BR": [
+      {
+        "added": "2008-10-20",
+        "removed": null
+      }
+    ],
+    "ACA.PA": [
+      {
+        "added": "2000-03-20",
+        "removed": null
+      }
+    ],
+    "AD.AS": [
+      {
+        "added": "2016-09-19",
+        "removed": null
+      }
+    ],
+    "ADS.DE": [
+      {
+        "added": "2016-09-19",
+        "removed": null
+      }
+    ],
+    "ADYEN.AS": [
+      {
+        "added": "2020-09-21",
+        "removed": null
+      }
+    ],
+    "AI.PA": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "ALV.DE": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "ARGX.BR": [
+      {
+        "added": "2025-09-22",
+        "removed": null
+      }
+    ],
+    "ASML.AS": [
+      {
+        "added": "2000-06-19",
+        "removed": null
+      }
+    ],
+    "BAS.DE": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "BAYN.DE": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "BBVA.MC": [
+      {
+        "added": "1998-02-26",
+        "removed": "2020-09-21"
+      },
+      {
+        "added": "2021-09-20",
+        "removed": null
+      }
+    ],
+    "BMW.DE": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "BN.PA": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "BNP.PA": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "CS.PA": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "DB1.DE": [
+      {
+        "added": "2001-09-24",
+        "removed": "2017-09-18"
+      },
+      {
+        "added": "2019-09-23",
+        "removed": null
+      }
+    ],
+    "DBK.DE": [
+      {
+        "added": "1998-02-26",
+        "removed": "2017-09-18"
+      },
+      {
+        "added": "2025-09-22",
+        "removed": null
+      }
+    ],
+    "DG.PA": [
+      {
+        "added": "2012-09-24",
+        "removed": null
+      }
+    ],
+    "DHL.DE": [
+      {
+        "added": "2005-09-19",
+        "removed": null
+      }
+    ],
+    "DTE.DE": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "EL.PA": [
+      {
+        "added": "2019-10-01",
+        "removed": null
+      }
+    ],
+    "ENEL.MI": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "ENI.MI": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "ENR.DE": [
+      {
+        "added": "2025-09-22",
+        "removed": null
+      }
+    ],
+    "FLTR.IR": [
+      {
+        "added": "2020-12-21",
+        "removed": null
+      }
+    ],
+    "FP.PA": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "IBE.MC": [
+      {
+        "added": "2005-09-19",
+        "removed": null
+      }
+    ],
+    "IFX.DE": [
+      {
+        "added": "2020-09-21",
+        "removed": null
+      }
+    ],
+    "INGA.AS": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "ISP.MI": [
+      {
+        "added": "2009-09-21",
+        "removed": null
+      }
+    ],
+    "ITX.MC": [
+      {
+        "added": "2011-09-19",
+        "removed": null
+      }
+    ],
+    "KER.PA": [
+      {
+        "added": "2017-09-18",
+        "removed": null
+      }
+    ],
+    "MBG.DE": [
+      {
+        "added": "1998-02-26",
+        "removed": "2015-09-21"
+      },
+      {
+        "added": "2023-02-27",
+        "removed": null
+      }
+    ],
+    "MC.PA": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "MT.AS": [
+      {
+        "added": "2004-09-20",
+        "removed": null
+      }
+    ],
+    "MUV2.DE": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "NDA-FI.HE": [
+      {
+        "added": "2022-09-19",
+        "removed": null
+      }
+    ],
+    "OR.PA": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "PRX.AS": [
+      {
+        "added": "2020-09-21",
+        "removed": null
+      }
+    ],
+    "RACE.MI": [
+      {
+        "added": "2023-09-18",
+        "removed": null
+      }
+    ],
+    "RMS.PA": [
+      {
+        "added": "2017-09-18",
+        "removed": null
+      }
+    ],
+    "RNO.PA": [
+      {
+        "added": "1999-09-20",
+        "removed": null
+      }
+    ],
+    "SAF.PA": [
+      {
+        "added": "2015-09-21",
+        "removed": null
+      }
+    ],
+    "SAN.MC": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "SAN.PA": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "SAP.DE": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "SGO.PA": [
+      {
+        "added": "1998-02-26",
+        "removed": "2017-09-18"
+      },
+      {
+        "added": "2023-09-18",
+        "removed": null
+      }
+    ],
+    "SIE.DE": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "SU.PA": [
+      {
+        "added": "1998-02-26",
+        "removed": null
+      }
+    ],
+    "AGN-200109": [
+      {
+        "added": "1998-02-26",
+        "removed": "2001-09-24"
+      }
+    ],
+    "ALU-200409": [
+      {
+        "added": "1998-02-26",
+        "removed": "2004-09-20"
+      }
+    ],
+    "AMS-202109": [
+      {
+        "added": "2017-09-18",
+        "removed": "2021-09-20"
+      }
+    ],
+    "CA.PA": [
+      {
+        "added": "1998-02-26",
+        "removed": "2016-09-19"
+      }
+    ],
+    "CRH-201009": [
+      {
+        "added": "1998-02-26",
+        "removed": "2010-09-20"
+      }
+    ],
+    "CRH.PA": [
+      {
+        "added": "2016-09-19",
+        "removed": "2023-09-18"
+      }
+    ],
+    "DXIA-201209": [
+      {
+        "added": "1998-02-26",
+        "removed": "2012-09-24"
+      }
+    ],
+    "EI-201910": [
+      {
+        "added": "2012-09-24",
+        "removed": "2019-10-01"
+      }
+    ],
+    "ENGI.PA": [
+      {
+        "added": "1998-02-26",
+        "removed": "2021-09-20"
+      }
+    ],
+    "EOAN.DE": [
+      {
+        "added": "1998-02-26",
+        "removed": "2012-09-24"
+      }
+    ],
+    "FORT-200810": [
+      {
+        "added": "1998-02-26",
+        "removed": "2008-10-20"
+      }
+    ],
+    "G.MI": [
+      {
+        "added": "1998-02-26",
+        "removed": "2016-09-19"
+      }
+    ],
+    "GLE.PA": [
+      {
+        "added": "1998-02-26",
+        "removed": "2020-09-21"
+      }
+    ],
+    "KNEBV-201709": [
+      {
+        "added": "2013-09-23",
+        "removed": "2017-09-18"
+      }
+    ],
+    "KNEBV.HE": [
+      {
+        "added": "2020-09-21",
+        "removed": "2022-09-19"
+      }
+    ],
+    "LIN.DE": [
+      {
+        "added": "2017-09-18",
+        "removed": "2023-02-27"
+      }
+    ],
+    "MMN-200003": [
+      {
+        "added": "1999-09-20",
+        "removed": "2000-03-20"
+      }
+    ],
+    "NOKIA.HE": [
+      {
+        "added": "1998-02-26",
+        "removed": "2013-09-23"
+      },
+      {
+        "added": "2014-09-22",
+        "removed": "2020-09-21"
+      },
+      {
+        "added": "2022-09-19",
+        "removed": "2025-09-22"
+      }
+    ],
+    "ORA.PA": [
+      {
+        "added": "2000-09-18",
+        "removed": "2020-09-21"
+      }
+    ],
+    "PHG-202209": [
+      {
+        "added": "1998-02-26",
+        "removed": "2022-09-19"
+      }
+    ],
+    "PRBS-200006": [
+      {
+        "added": "1998-02-26",
+        "removed": "2000-06-19"
+      }
+    ],
+    "PRMD-199909": [
+      {
+        "added": "1998-02-26",
+        "removed": "1999-09-20"
+      }
+    ],
+    "RDSA-200509": [
+      {
+        "added": "1998-02-26",
+        "removed": "2005-09-19"
+      }
+    ],
+    "REP.MC": [
+      {
+        "added": "1998-02-26",
+        "removed": "2014-09-22"
+      }
+    ],
+    "RI.PA": [
+      {
+        "added": "2013-09-23",
+        "removed": "2025-09-22"
+      }
+    ],
+    "RPR-199909": [
+      {
+        "added": "1998-02-26",
+        "removed": "1999-09-20"
+      }
+    ],
+    "RWE.DE": [
+      {
+        "added": "1998-02-26",
+        "removed": "2011-09-19"
+      }
+    ],
+    "STLAM.MI": [
+      {
+        "added": "2021-09-20",
+        "removed": "2025-09-22"
+      }
+    ],
+    "STM.PA": [
+      {
+        "added": "1998-02-26",
+        "removed": "2009-09-21"
+      }
+    ],
+    "TEF.MC": [
+      {
+        "added": "1998-02-26",
+        "removed": "2020-09-21"
+      }
+    ],
+    "TIT-200509": [
+      {
+        "added": "1998-02-26",
+        "removed": "2005-09-19"
+      }
+    ],
+    "TTE-200009": [
+      {
+        "added": "1998-02-26",
+        "removed": "2000-09-18"
+      }
+    ],
+    "UCG.MI": [
+      {
+        "added": "1998-02-26",
+        "removed": "2016-09-19"
+      }
+    ],
+    "UNA-202012": [
+      {
+        "added": "1998-02-26",
+        "removed": "2020-12-21"
+      }
+    ],
+    "URW-201909": [
+      {
+        "added": "2010-09-20",
+        "removed": "2019-09-23"
+      }
+    ],
+    "VIV.PA": [
+      {
+        "added": "1998-02-26",
+        "removed": "2013-09-23"
+      }
+    ],
+    "VNA.DE": [
+      {
+        "added": "2020-09-21",
+        "removed": "2023-09-18"
+      }
+    ]
+  }
+}
