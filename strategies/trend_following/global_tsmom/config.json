@@ -1,0 +1,26 @@
+{
+  "name": "Global TSMOM — Time-Series Momentum",
+  "slug": "global_tsmom",
+  "category": "trend_following",
+  "start_date": "2006-01-01",
+  "end_date": null,
+  "initial_capital": 100000.0,
+  "commission_bps": 0.0,
+  "long_short": "long",
+  "rebalance_freq": "monthly",
+  "role": "alpha",
+  "status": "idle",
+  "version": "v1",
+  "extra": {
+    "instruments": ["SPY", "QQQ", "IWM", "IWD", "IWF", "EFA", "EWJ", "EEM", "TLT", "IEF", "SHY", "TIP", "LQD", "HYG", "BWX", "GLD", "SLV", "DBC", "VNQ", "RWX", "EMB", "DBA"],
+    "lookback_period": 252,
+    "vol_lookback": 20,
+    "target_vol": 0.10,
+    "max_leverage": 2.0,
+    "max_single_weight": 0.15,
+    "vol_floor": 0.03,
+    "winsorize_daily_return": 0.10,
+    "cost_eras": [[0, 2010, 5], [2010, 2020, 3], [2020, 3000, 2]],
+    "first_trade_date": "2008-07-01"
+  }
+}

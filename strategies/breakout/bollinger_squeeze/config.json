@@ -1,0 +1,21 @@
+{
+  "name": "Bollinger Squeeze Breakout (QQQ)",
+  "slug": "bollinger_squeeze",
+  "category": "breakout",
+  "start_date": "2005-01-01",
+  "end_date": null,
+  "initial_capital": 200000.0,
+  "commission_bps": 10.0,
+  "long_short": "long_short",
+  "max_positions": 1,
+  "rebalance_freq": "daily",
+  "role": "alpha",
+  "status": "idle",
+  "version": "v1",
+  "extra": {
+    "symbol": "QQQ",
+    "n": 20,
+    "k": 2.0,
+    "sq_win": 120
+  }
+}

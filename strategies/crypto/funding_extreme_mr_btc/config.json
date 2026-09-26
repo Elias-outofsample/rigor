@@ -1,0 +1,23 @@
+{
+  "name": "Funding-Extreme Mean-Reversion (BTC)",
+  "slug": "funding_extreme_mr_btc",
+  "category": "crypto",
+  "start_date": "2020-01-01",
+  "end_date": null,
+  "initial_capital": 200000.0,
+  "commission_bps": 10.0,
+  "long_short": "long_short",
+  "max_positions": 1,
+  "rebalance_freq": "daily",
+  "role": "alpha",
+  "status": "idle",
+  "version": "v1",
+  "extra": {
+    "spot_symbol": "BTC-USD.CC",
+    "funding_symbol": "BTCUSDT",
+    "z_win": 30,
+    "z_entry": 2.0,
+    "z_exit": 0.5,
+    "trend_win": 30
+  }
+}

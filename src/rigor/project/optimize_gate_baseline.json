@@ -1,0 +1,6 @@
+{
+  "_comment": "Grandfathered strategies that predate rigor.project.optimize_gate and still lack a sweepable param_grid(). Accepted backfill debt: the gate WARNs on these but does not block. A NEW or REGRESSED non-compliant strategy not in this list FAILS CI. As each is backfilled, remove it here (the list only shrinks). Regenerate: python -m rigor.project.optimize_gate --update-baseline",
+  "generated": "2026-07-04",
+  "count": 0,
+  "slugs": []
+}

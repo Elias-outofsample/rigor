@@ -1,0 +1,32 @@
+{
+  "name": "Credit Carry Rotation - HYG/IEF/EMB/SHY",
+  "slug": "credit_carry_rotation",
+  "category": "carry",
+  "start_date": "2007-04-01",
+  "end_date": "2026-03-28",
+  "initial_capital": 100000.0,
+  "commission_bps": 0.0,
+  "long_short": "long",
+  "rebalance_freq": "monthly",
+  "role": "alpha",
+  "status": "idle",
+  "version": "v1",
+  "extra": {
+    "carry_etf": "HYG",
+    "duration_etf": "IEF",
+    "safe_etf": "SHY",
+    "em_etf": "EMB",
+    "cash_etf": "BIL",
+    "ratio_ma_period": 9,
+    "ratio_threshold": 0.01,
+    "oas_fred": "BAMLH0A0HYM2",
+    "oas_stress_high": 8.0,
+    "curve_fred": "T10Y3M",
+    "curve_inversion_threshold": -99.0,
+    "hyg_weight_max": 0.70,
+    "hyg_weight_min": 0.20,
+    "emb_weight": 0.15,
+    "cost_bps": 5,
+    "first_trade_date": "2008-07-01"
+  }
+}

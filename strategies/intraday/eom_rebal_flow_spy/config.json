@@ -1,0 +1,26 @@
+{
+  "name": "Month-End Rebalancing Flow — SPY (conditional, last 5d open→close)",
+  "slug": "eom_rebal_flow_spy",
+  "category": "intraday",
+  "start_date": "2014-01-01",
+  "end_date": null,
+  "initial_capital": 100000.0,
+  "commission_bps": 1.0,
+  "long_short": "long_short",
+  "rebalance_freq": "daily",
+  "role": "alpha",
+  "status": "idle",
+  "version": "v1",
+  "extra": {
+    "symbol": "SPY",
+    "bond": "TLT",
+    "interval": "1m",
+    "session": "rth",
+    "n_last": 5,
+    "cost_bps": 1.5,
+    "oos_start": "2021-01-01",
+    "oos_end": null,
+    "source_paper": "Etula-Rinne-Suominen-Vaittinen (2020) Dash for Cash / rebalancing premium; improvement flagged in eoq_last5d_pension_rebal_short_spy docstring (signed equity-bond spread filter)"
+  },
+  "ledger_exempt": true
+}

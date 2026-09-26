@@ -1,0 +1,30 @@
+{
+  "name": "VWAP Regime Router, as-published (ES)",
+  "slug": "vwap_regime_route_es",
+  "category": "intraday",
+  "start_date": "2010-06-07",
+  "end_date": "2026-06-01",
+  "initial_capital": 100000.0,
+  "commission_bps": 1.0,
+  "long_short": "long_short",
+  "rebalance_freq": "intraday",
+  "role": "alpha",
+  "status": "idle",
+  "version": "v1",
+  "extra": {
+    "symbol": "ES",
+    "variant": "regime_routed",
+    "interval": "5m",
+    "ftmo_symbol": "US500",
+    "regime_dev_threshold": 1.5,
+    "regime_n_bars": 12,
+    "stop_atr_mult": 1.0,
+    "single_entry_per_day": false,
+    "min_bars_cooldown": 0,
+    "open_window_min": 30,
+    "threshold_atr_mult": 0.4,
+    "reward_r": 1.5,
+    "regime_causal": false
+  },
+  "ledger_exempt": true
+}

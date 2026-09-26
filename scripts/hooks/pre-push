@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+# Optional, PERSONAL pre-push hook: make `rigor optimize` mandatory on YOUR machine.
+#
+# Install (local only — never shared, never affects the framework or other clones):
+#     cp scripts/hooks/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
+# Uninstall:
+#     rm .git/hooks/pre-push
+#
+# What it does: for every strategy you're about to push that (a) declares a
+# multi-value param_grid and (b) has changes vs origin/main, it runs `rigor optimize`
+# and BLOCKS the push if the optimisation errors. Strategies without a param_grid
+# are skipped. Set RIGOR_OPTIMIZE_BLOCK_OVERFIT=1 to also block when the overfit
+# verdict is REJECT. Optimisation is compute-heavy — this is opt-in by design.
+set -euo pipefail
+command -v rigor >/dev/null 2>&1 || RIGOR="python -m rigor"; RIGOR="${RIGOR:-rigor}"
+
+changed=$(git diff --name-only origin/main...HEAD 2>/dev/null \
+          | grep -E '^strategies/[^/]+/[^/]+/(strategy\.py|config\.json)$' \
+          | sed -E 's#/(strategy\.py|config\.json)$##' | sort -u || true)
+[ -z "$changed" ] && exit 0
+
+fail=0
+for d in $changed; do
+  grep -q 'def param_grid' "$d/strategy.py" 2>/dev/null || continue
+  echo "pre-push: optimising $d ..."
+  if ! out=$($RIGOR optimize "$d" --as-of 2026-06-01 2>&1); then
+    echo "$out"; echo "pre-push: rigor optimize FAILED for $d — push blocked."; fail=1; continue
+  fi
+  echo "$out" | sed 's/^/  /'
+  if [ "${RIGOR_OPTIMIZE_BLOCK_OVERFIT:-0}" = "1" ] && echo "$out" | grep -q 'REJECT'; then
+    echo "pre-push: $d optimisation verdict is REJECT — push blocked (RIGOR_OPTIMIZE_BLOCK_OVERFIT=1)."; fail=1
+  fi
+done
+[ "$fail" = "0" ] || { echo "pre-push: fix the above or 'git push --no-verify' to bypass once."; exit 1; }
+exit 0

@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    name: lint · types · tests · quality gates
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+      - name: System libraries (cairo headers for pycairo, used by the PDF thesis)
+        run: sudo apt-get update && sudo apt-get install -y libcairo2-dev pkg-config
+      - name: Install
+        run: pip install -e ".[dev]"
+      - name: Lint
+        run: ruff check src tests
+      - name: Type check (whole package)
+        run: mypy -p rigor
+      - name: Unit tests + coverage floor
+        run: pytest --ignore=tests/test_strategies_smoke.py --ignore=tests/test_param_grid_runtime.py --cov=rigor --cov-report=term-missing
+      - name: Artifact audit — recompute every committed metric from its returns
+        run: python -m rigor.project.audit
+      - name: Promotion gate — no deployable strategy may carry a REJECT
+        run: python -m rigor.project.promotion_gate
+      - name: Optimize gate — every strategy is grid-or-exempt (strict)
+        run: python -m rigor.project.optimize_gate --strict
+      - name: README numbers gate — headline claims must match the data
+        run: python -m rigor.project.thesis_gate
+
+  smoke:
+    name: every strategy runs on synthetic data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: sudo apt-get update && sudo apt-get install -y libcairo2-dev pkg-config
+      - run: pip install -e ".[dev]"
+      - name: Smoke-run the book + parameter grids
+        run: pytest tests/test_strategies_smoke.py tests/test_param_grid_runtime.py -n auto
+      - name: End-to-end demo (noise must be rejected)
+        run: rigor demo --out /tmp/rigor-demo
+
+  cockpit:
+    name: portfolio cockpit (engine + API)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: sudo apt-get update && sudo apt-get install -y libcairo2-dev pkg-config
+      - run: pip install -e . -e "cockpit[dev]"
+      - run: ruff check cockpit/portfolio_engine cockpit/cockpit_api cockpit/tests
+      - run: pytest cockpit/tests -q

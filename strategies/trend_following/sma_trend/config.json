@@ -1,0 +1,17 @@
+{
+  "name": "SMA Trend (SPY)",
+  "slug": "sma_trend",
+  "category": "trend_following",
+  "start_date": "2005-01-01",
+  "end_date": null,
+  "initial_capital": 200000.0,
+  "commission_bps": 10.0,
+  "long_short": "long",
+  "rebalance_freq": "daily",
+  "role": "alpha",
+  "status": "idle",
+  "version": "v1",
+  "extra": {
+    "symbol": "SPY"
+  }
+}

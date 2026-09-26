@@ -1,0 +1,46 @@
+# Portfolio Web — the FastAPI cockpit service + the headless portfolio engine, one package.
+#
+# Install order (builds on the rigor framework):
+#     pip install -e Framework               # the rigor package (metrics / validation / data)
+#     pip install -e "cockpit[dev]"     # this service + the engine + test/lint deps
+# then launch from cockpit/:
+#     uvicorn cockpit_api.main:app --port 8000   # open http://localhost:8000
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "portfolio-web"
+version = "0.1.0"
+description = "Portfolio Web cockpit — FastAPI + the headless portfolio_engine over the Rigor Strategy book"
+requires-python = ">=3.13"
+# rigor is installed separately (editable, from this repo) for the rigor.* imports
+# the engine builds on (single-source metrics / validation).
+dependencies = [
+    "fastapi>=0.110,<1",
+    "uvicorn[standard]>=0.27,<1",
+    "pydantic>=2.6,<3",
+    "numpy>=1.26,<3",
+    "pandas>=2.0,<3",
+    "scipy>=1.11,<2",
+    "matplotlib>=3.7,<4",     # portfolio_engine.portfolio_io tearsheet charts (lazy import)
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "httpx>=0.27", "ruff>=0.6"]
+
+# Two importable packages ship together: the FastAPI service and the headless engine.
+[tool.setuptools.packages.find]
+include = ["cockpit_api*", "portfolio_engine*"]
+
+# Same lint conventions as the rest of the repo.
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "C4", "SIM", "RET"]
+
+[tool.ruff.lint.per-file-ignores]
+# portfolio_io embeds an inline HTML/CSS tearsheet template (legitimately long lines).
+"portfolio_engine/portfolio_io.py" = ["E501"]

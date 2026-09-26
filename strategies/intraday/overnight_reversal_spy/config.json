@@ -1,0 +1,20 @@
+{
+  "name": "Overnight Reversal (late-selloff long, SPY)",
+  "slug": "overnight_reversal_spy",
+  "category": "intraday",
+  "start_date": "2013-08-13",
+  "end_date": "2026-05-29",
+  "initial_capital": 100000.0,
+  "commission_bps": 1.0,
+  "long_short": "long",
+  "rebalance_freq": "intraday",
+  "role": "alpha",
+  "status": "idle",
+  "version": "v1",
+  "extra": {
+    "symbol": "SPY",
+    "selloff_thresh": 0.0,
+    "cond_window_min": 60
+  },
+  "ledger_exempt": true
+}

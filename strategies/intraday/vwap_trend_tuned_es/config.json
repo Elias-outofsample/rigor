@@ -1,0 +1,27 @@
+{
+  "name": "VWAP Trend, IS-tuned (OOS window) (ES)",
+  "slug": "vwap_trend_tuned_es",
+  "category": "intraday",
+  "start_date": "2010-06-07",
+  "end_date": "2026-06-01",
+  "initial_capital": 100000.0,
+  "commission_bps": 1.0,
+  "long_short": "long_short",
+  "rebalance_freq": "intraday",
+  "role": "alpha",
+  "status": "idle",
+  "version": "v2",
+  "extra": {
+    "symbol": "ES",
+    "variant": "vwap_trend",
+    "interval": "5m",
+    "ftmo_symbol": "US500",
+    "eval_start": "2020-11-03",
+    "stop_atr_mult": 1.5,
+    "entry_band_atr": 0.1,
+    "min_bars_cooldown": 0,
+    "max_entries_per_day": 0,
+    "slope_bars": 3
+  },
+  "ledger_exempt": true
+}

@@ -1,0 +1,170 @@
+{
+  "as_of": "2026-06-01",
+  "diagnostics": {
+    "available_blocks": "tail, risk, crisis, capacity",
+    "burke": 1.6154635419794376,
+    "capacity_base_sharpe": 1.067602600493251,
+    "capacity_central": 1000000.000000426,
+    "capacity_high": 6249999.999999747,
+    "capacity_low": 250000.0000002755,
+    "crash_sharpe_ratio": 2.1102,
+    "crisis_verdict": "CONVEXITY_CANDIDATE",
+    "cvar_95": -0.014600481612398629,
+    "cvar_99_gpd": -0.02608309842453328,
+    "factor_alpha": null,
+    "factor_alpha_p": null,
+    "factor_alpha_t": null,
+    "factor_r_squared": null,
+    "fat_tailed": false,
+    "gain_to_pain": 0.5093067310836402,
+    "gpd_sigma": 0.01317010060104954,
+    "gpd_xi": -0.38278437815235866,
+    "hill_alpha": 4.019007934002932,
+    "kupiec_p_value": 0.9957564934162522,
+    "kupiec_verdict": "PASS",
+    "mean_crisis_sharpe": 2.2529,
+    "omega": 1.5093067310836406,
+    "risk_dna_gamma_exposure": null,
+    "risk_dna_payoff_type": null,
+    "risk_dna_profile": null,
+    "risk_dna_theta_exposure": null,
+    "risk_dna_vol_exposure": null,
+    "sterling": 1.6271220087025953,
+    "tail_ratio": 1.9010000935634783,
+    "ulcer_index": 2.794109637105126,
+    "upi": 3.8388332254206223,
+    "var_95": -0.005117528941706828,
+    "var_99_gpd": -0.020938290300577533,
+    "worst_crisis_label": "dotcom_crash",
+    "worst_crisis_sharpe": null
+  },
+  "end": "2026-05-28",
+  "metrics": {
+    "cagr": 0.10726120910387116,
+    "calmar": 1.4300581932811007,
+    "max_drawdown": -0.0750047862442387,
+    "n_obs": 1861,
+    "sharpe": 1.067602600493251,
+    "sortino": 1.838966822737354,
+    "total_return": 1.122185628748206,
+    "volatility": 0.10010413785172118,
+    "win_rate": 0.5606469002695418
+  },
+  "name": "IBS Mean-Reversion (XLK)",
+  "start": "2019-01-02",
+  "verdict": {
+    "gates": [
+      {
+        "critical": true,
+        "name": "DSR P(skill) > 0.50",
+        "neutral": false,
+        "passed": true,
+        "threshold": 0.5,
+        "value": 0.9292,
+        "weight": 12
+      },
+      {
+        "critical": false,
+        "name": "Haircut < 50%",
+        "neutral": false,
+        "passed": true,
+        "threshold": 0.5,
+        "value": 0.3683,
+        "weight": 9
+      },
+      {
+        "critical": false,
+        "name": "PBO < 0.40",
+        "neutral": false,
+        "passed": false,
+        "threshold": 0.4,
+        "value": 0.467,
+        "weight": 9
+      },
+      {
+        "critical": false,
+        "name": "PSR > 0.95",
+        "neutral": false,
+        "passed": true,
+        "threshold": 0.95,
+        "value": 0.999,
+        "weight": 9
+      },
+      {
+        "critical": false,
+        "name": "Harvey t > 3",
+        "neutral": false,
+        "passed": false,
+        "threshold": 3.0,
+        "value": 2.3155,
+        "weight": 8
+      },
+      {
+        "critical": false,
+        "name": "Track record sufficient",
+        "neutral": false,
+        "passed": true,
+        "threshold": 1861,
+        "value": 527.0482,
+        "weight": 8
+      },
+      {
+        "critical": false,
+        "name": "Walk-forward efficiency > 0.50",
+        "neutral": false,
+        "passed": true,
+        "threshold": 0.5,
+        "value": 0.897,
+        "weight": 9
+      },
+      {
+        "critical": false,
+        "name": "Positive years >= 60%",
+        "neutral": false,
+        "passed": true,
+        "threshold": 0.6,
+        "value": 0.875,
+        "weight": 8
+      },
+      {
+        "critical": false,
+        "name": "Sub-period Sharpe CV < 0.50",
+        "neutral": false,
+        "passed": false,
+        "threshold": 0.5,
+        "value": 1.237,
+        "weight": 8
+      },
+      {
+        "critical": true,
+        "name": "Sharpe > 0",
+        "neutral": false,
+        "passed": true,
+        "threshold": 0.0,
+        "value": 1.0676,
+        "weight": 8
+      },
+      {
+        "critical": false,
+        "name": "Worst-year Sharpe > -0.5",
+        "neutral": false,
+        "passed": true,
+        "threshold": -0.5,
+        "value": -0.105,
+        "weight": 6
+      },
+      {
+        "critical": false,
+        "name": "Bootstrap 95% CI lower > 0",
+        "neutral": false,
+        "passed": true,
+        "threshold": 0.0,
+        "value": 0.39,
+        "weight": 6
+      }
+    ],
+    "grade": "ROBUST",
+    "score": 75.0,
+    "verdict": "PROMOTE"
+  }
+}

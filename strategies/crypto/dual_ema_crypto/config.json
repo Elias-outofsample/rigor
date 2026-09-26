@@ -1,0 +1,21 @@
+{
+  "name": "Dual-EMA Trend (BTC + ETH)",
+  "slug": "dual_ema_crypto",
+  "category": "crypto",
+  "start_date": "2017-01-01",
+  "end_date": null,
+  "initial_capital": 200000.0,
+  "commission_bps": 15.0,
+  "long_short": "long",
+  "rebalance_freq": "daily",
+  "role": "alpha",
+  "status": "idle",
+  "version": "v1",
+  "extra": {
+    "tickers": ["BTC-USD.CC", "ETH-USD.CC"],
+    "ema_fast": 12,
+    "ema_slow": 28,
+    "sma_trend": 150,
+    "enable_short": 0
+  }
+}

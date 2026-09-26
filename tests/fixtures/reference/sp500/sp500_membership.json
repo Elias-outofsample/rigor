@@ -1,0 +1,97 @@
+{
+ "index_name": "Synthetic sp500 membership (tests only)",
+ "source": "synthetic fixture: tickers of tests/fake_data.FakeDataLoader",
+ "notes": "Not real index membership.",
+ "events": [
+  {
+   "date": "2000-01-03",
+   "ticker": "AAA",
+   "action": "added"
+  },
+  {
+   "date": "2000-01-03",
+   "ticker": "BBB",
+   "action": "added"
+  },
+  {
+   "date": "2000-01-03",
+   "ticker": "CCC",
+   "action": "added"
+  },
+  {
+   "date": "2000-01-03",
+   "ticker": "DDD",
+   "action": "added"
+  },
+  {
+   "date": "2012-06-15",
+   "ticker": "DDD",
+   "action": "removed"
+  },
+  {
+   "date": "2016-03-18",
+   "ticker": "DDD",
+   "action": "added"
+  },
+  {
+   "date": "2000-01-03",
+   "ticker": "EEE",
+   "action": "added"
+  },
+  {
+   "date": "2000-01-03",
+   "ticker": "FFF",
+   "action": "added"
+  },
+  {
+   "date": "2000-01-03",
+   "ticker": "GGG",
+   "action": "added"
+  },
+  {
+   "date": "2000-01-03",
+   "ticker": "HHH",
+   "action": "added"
+  },
+  {
+   "date": "2012-06-15",
+   "ticker": "HHH",
+   "action": "removed"
+  },
+  {
+   "date": "2016-03-18",
+   "ticker": "HHH",
+   "action": "added"
+  },
+  {
+   "date": "2000-01-03",
+   "ticker": "III",
+   "action": "added"
+  },
+  {
+   "date": "2000-01-03",
+   "ticker": "JJJ",
+   "action": "added"
+  },
+  {
+   "date": "2000-01-03",
+   "ticker": "KKK",
+   "action": "added"
+  },
+  {
+   "date": "2000-01-03",
+   "ticker": "LLL",
+   "action": "added"
+  },
+  {
+   "date": "2012-06-15",
+   "ticker": "LLL",
+   "action": "removed"
+  },
+  {
+   "date": "2016-03-18",
+   "ticker": "LLL",
+   "action": "added"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "IBS Mean-Reversion (XLK)",
+  "slug": "ibs_reversion_xlk",
+  "category": "intraday",
+  "start_date": "2019-01-01",
+  "end_date": "2026-05-29",
+  "initial_capital": 100000.0,
+  "commission_bps": 1.0,
+  "long_short": "long",
+  "rebalance_freq": "intraday",
+  "role": "alpha",
+  "status": "idle",
+  "version": "v1",
+  "extra": {
+    "symbol": "XLK.US",
+    "ibs_thr": 0.2,
+    "exit_mode": "oc"
+  },
+  "ledger_exempt": true
+}

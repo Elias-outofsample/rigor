@@ -1,0 +1,45 @@
+# secrets
+.env
+*.env
+!.env.example
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+# data never lives in the repository (licensed vendors)
+data/
+data_cache/
+data_release_*.tar.gz
+*.parquet
+!tests/fixtures/futures/*.parquet
+
+# regenerable derived caches (rendered evidence under artifacts/ IS committed)
+strategies/**/extra/
+strategies/**/artifacts/*_wf.json
+strategies/**/artifacts/*_risk.json
+strategies/**/artifacts/*_peryear.json
+strategies/**/artifacts/*_snapshot.json.gz
+strategies/**/artifacts/*_optimization.json
+catalog/MASTER_SNAPSHOT.parquet
+
+# demo output
+rigor-demo/
+
+# os / editors
+.DS_Store
+Thumbs.db
+*.bak

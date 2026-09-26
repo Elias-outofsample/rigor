@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rigor — Portfolio Cockpit</title>
+  <link rel="stylesheet" href="/styles.css?v=2" />
+</head>
+<body>
+  <header class="banner">
+    <span class="brand">Rigor</span>
+    <span class="sub">Research Terminal · Portfolio Cockpit</span>
+    <span class="spacer"></span>
+    <span class="theme">● Terminal</span>
+  </header>
+
+  <div class="cockpit">
+    <!-- Left strategy rail -->
+    <aside class="rail">
+      <input id="filter" type="search" placeholder="filter strategies…" autocomplete="off" />
+      <label class="rail-year muted" title="Only show strategies with data going back to this year or earlier.">
+        history since ≤ <input id="minYear" type="number" min="1990" max="2030" placeholder="any" />
+        <button id="applyYear">Apply</button></label>
+      <div id="count" class="muted">0 selected · 0 shown</div>
+      <div id="strategies" class="strategies">Loading the book…</div>
+      <div class="rail-actions">
+        <button id="checkShown">Check shown</button>
+        <button id="clear">Clear</button>
+      </div>
+    </aside>
+
+    <!-- Center column -->
+    <main class="main">
+      <section class="panel">
+        <h2>Search <span class="muted">— grid-search the best k-of-N combinations of the selected strategies that meet the criteria</span></h2>
+        <div class="grid">
+          <label>Max weight <input id="maxWeight" type="range" min="0" max="100" value="0" />
+            <span id="maxWeightVal" class="val">none</span></label>
+          <label title="Each candidate book holds between min and max strategies (0 = unbounded). Keep this small (e.g. 4–8) for a focused, investable book.">Strats min / max
+            <span class="cardinality"><input id="cardMin" type="number" min="0" value="4" />–<input
+              id="cardMax" type="number" min="0" value="8" /></span></label>
+          <label class="check" title="Score each book only over the period where ALL its strategies overlap (inner-join), instead of the full union history.">
+            <input id="commonWindow" type="checkbox" /> Common window</label>
+          <label class="check"><input id="useCpcv" type="checkbox" /> CPCV out-of-sample</label>
+          <label>Samples <input id="nSamples" type="number" min="500" max="50000" step="500" value="3000" /></label>
+          <button id="search" class="build" disabled>★ Search portfolios</button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Criteria <span class="muted">— a portfolio must clear these to appear; Sharpe / CAGR / MaxDD filter the search, the rest gate the chosen book</span></h2>
+        <div class="constraints">
+          <label>min Sharpe <input data-con="min_sharpe" type="number" step="0.1" value="0" /></label>
+          <label>min CAGR % <input data-con="min_cagr" type="number" step="5" value="0" /></label>
+          <label>max β <input data-con="max_beta" type="number" step="0.1" value="0" /></label>
+          <label>max ρ bench <input data-con="max_corr_bench" type="number" step="0.05" value="0" /></label>
+          <label>max ρ strats <input data-con="max_corr_strat" type="number" step="0.05" value="0" /></label>
+          <label>min divers. <input data-con="min_divers" type="number" step="0.1" value="0" /></label>
+          <label>max risk/strat % <input data-con="max_risk" type="number" step="5" value="0" /></label>
+          <label>max DD % <input data-con="max_dd" type="number" step="5" value="0" /></label>
+          <label>max vol % <input data-con="max_vol" type="number" step="5" value="0" /></label>
+        </div>
+      </section>
+
+      <section class="actions">
+        <button id="save" disabled>Save</button>
+        <button id="saved">Saved…</button>
+        <button id="export" disabled>⎙ Export HTML</button>
+        <span id="status" class="muted"></span>
+      </section>
+
+      <div id="results">
+        <p class="placeholder">Select ≥ 2 strategies, set any constraints, then ★ Build — the cockpit
+          allocates (robust grid or a chosen method), validates out-of-sample (CPCV/PBO +
+          permutation), gates the book against your constraints, and shows the dossier.</p>
+      </div>
+    </main>
+  </div>
+
+  <script src="/app.js?v=2"></script>
+</body>
+</html>

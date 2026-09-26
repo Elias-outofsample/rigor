@@ -1,0 +1,14 @@
+{
+  "name": "Moving-Average Crossover (demo)",
+  "slug": "ma_crossover",
+  "category": "trend_following",
+  "start_date": "2008-01-02",
+  "end_date": "2024-12-31",
+  "commission_bps": 2.0,
+  "long_short": "long_short",
+  "max_positions": 1,
+  "rebalance_freq": "daily",
+  "status": "idle",
+  "version": "v1",
+  "extra": {"symbol": "NOISE", "fast": 20, "slow": 100}
+}

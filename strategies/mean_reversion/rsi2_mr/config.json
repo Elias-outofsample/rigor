@@ -1,0 +1,24 @@
+{
+  "name": "RSI(2) Mean Reversion — S&P 500",
+  "slug": "rsi2_mr",
+  "category": "mean_reversion",
+  "start_date": "2010-01-01",
+  "end_date": null,
+  "initial_capital": 200000.0,
+  "commission_bps": 5.0,
+  "long_short": "long",
+  "rebalance_freq": "daily",
+  "role": "alpha",
+  "status": "idle",
+  "version": "v1",
+  "extra": {
+    "index": "sp500",
+    "rsi_period": 2,
+    "rsi_threshold": 10,
+    "sma_period": 200,
+    "natr_period": 14,
+    "max_positions": 5,
+    "min_price": 1.0,
+    "time_stop_bars": 20
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Turtle Trading — Multi-ETF",
+  "slug": "turtle_trading_etf",
+  "category": "trend_following",
+  "start_date": "2002-01-01",
+  "end_date": null,
+  "initial_capital": 100000.0,
+  "commission_bps": 0.0,
+  "long_short": "long",
+  "rebalance_freq": "daily",
+  "role": "alpha",
+  "status": "idle",
+  "version": "v1",
+  "extra": {
+    "instruments": ["SPY", "QQQ", "GLD", "TLT", "IEF"],
+    "groups": {"equity": ["SPY", "QQQ"], "bonds": ["TLT", "IEF"], "commodities": ["GLD"]},
+    "s1_entry_channel": 20,
+    "s1_exit_channel": 10,
+    "s2_entry_channel": 55,
+    "s2_exit_channel": 20,
+    "atr_period": 20,
+    "risk_per_unit": 0.01,
+    "stop_multiplier": 2.0,
+    "pyramid_interval": 0.5,
+    "max_units_per_instrument": 4,
+    "max_units_per_group": 6,
+    "max_total_units": 12,
+    "s1_filter_enabled": true,
+    "slippage_bps": 0.0005,
+    "cost_eras": [[2002, 2007, 15], [2007, 2015, 10], [2015, 2019, 5], [2019, 2030, 3]],
+    "first_trade_date": "2005-01-01"
+  }
+}

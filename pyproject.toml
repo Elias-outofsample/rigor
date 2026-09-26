@@ -1,0 +1,92 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rigor"
+version = "1.0.0"
+description = "Reproducible research framework for systematic trading strategies: one command from idea to backtest, report card, thesis and a statistically-defended verdict."
+readme = "README.md"
+license = {text = "Proprietary (all rights reserved)"}
+requires-python = ">=3.13"
+
+# Core dependencies — the deterministic data/engine/report path.
+dependencies = [
+    "pandas>=2.3,<3",
+    "numpy>=2.0,<3",
+    "scipy>=1.11,<2",    # validation stats (PSR/DSR, bootstrap, distributions)
+    "pyarrow>=15",
+    "requests>=2.31",
+    "truststore>=0.9",   # verified TLS via the OS trust store (SSL-inspection proxies)
+    # Thesis PDF generator — CORE (not optional) so every `rigor run` emits a thesis.
+    "reportlab>=4.0",
+    "matplotlib>=3.7,<4",
+    "svglib>=1.5",
+    "lxml>=4.9",
+]
+
+[project.optional-dependencies]
+# Kept for backward compatibility: the thesis deps are now core (above), so a plain
+# `pip install -e .` already includes them. `rigor[thesis]` still resolves.
+thesis = []
+# Optional compute accelerators for `rigor optimize` (bootstrap-heavy stages). Never
+# required — results are identical without them; they only make the search faster.
+#   rigor[accel]      -> Numba JIT (CPU)
+#   rigor[accel-cuda] -> CuPy (NVIDIA GPU); pick the wheel matching your CUDA.
+accel = ["numba>=0.59"]
+accel-cuda = ["numba>=0.59", "cupy-cuda12x>=13.0"]
+# Advanced analysis layer (rigor.analysis): factor attribution, conditional tail
+# risk, HMM regimes. The core analysis (risk battery, signal quality, labeling,
+# look-ahead, structural breaks) needs nothing extra; these power the heavier
+# pieces and degrade gracefully when absent.
+analysis = ["statsmodels>=0.14", "arch>=6.0", "hmmlearn>=0.3", "pandas-datareader>=0.10"]
+dev = ["pytest>=8.0", "ruff>=0.6", "pytest-xdist>=3.5", "hypothesis>=6.0", "mypy>=1.10", "pytest-cov>=5.0", "pyarrow"]
+
+[project.scripts]
+rigor = "rigor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["rigor*"]
+
+[tool.setuptools.package-data]
+# The frozen Sharadar PIT membership reference must ship with the package.
+"rigor.data" = ["reference/**/*.json"]
+"rigor.examples" = ["*/config.json", "*/*.py"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+# Don't lint the vendored thesis generator.
+extend-exclude = ["src/rigor/thesis"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "C4", "SIM", "RET"]
+
+[tool.ruff.lint.per-file-ignores]
+# report.py embeds inline HTML/CSS/JS template strings that are legitimately long.
+"src/rigor/report.py" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.coverage.run]
+source = ["rigor"]
+# The vendored thesis generator is excluded from lint + type checks; exclude it
+# from coverage too so the gate tracks the maintained code, not vendored output.
+omit = ["*/rigor/thesis/*"]
+
+[tool.coverage.report]
+# Floor enforced by the `test` CI job (pytest --cov). Coverage is ~79% (thesis
+# omitted); 75 leaves headroom while still blocking a real coverage regression.
+fail_under = 75
+
+[tool.mypy]
+python_version = "3.13"
+# Third-party libs (pandas, scipy, ...) don't ship type stubs; don't fail on that.
+ignore_missing_imports = true
+# Type-checked scope is the WHOLE `rigor` package, including the vendored thesis/PDF
+# generator (CI runs `mypy -p rigor`). The former `rigor.thesis.*` `ignore_errors`
+# override was removed once the thesis module was made genuinely type-clean
+# (implicit-Optional and a few annotation fixes); there is no remaining blind spot.

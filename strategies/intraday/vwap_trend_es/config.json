@@ -1,0 +1,24 @@
+{
+  "name": "VWAP Trend (ES)",
+  "slug": "vwap_trend_es",
+  "category": "intraday",
+  "start_date": "2010-06-07",
+  "end_date": "2026-06-01",
+  "initial_capital": 100000.0,
+  "commission_bps": 1.0,
+  "long_short": "long_short",
+  "rebalance_freq": "intraday",
+  "role": "alpha",
+  "status": "idle",
+  "version": "v1",
+  "extra": {
+    "symbol": "ES",
+    "variant": "vwap_trend",
+    "interval": "5m",
+    "ftmo_symbol": "US500",
+    "stop_atr_mult": 1.0,
+    "single_entry_per_day": false,
+    "min_bars_cooldown": 0
+  },
+  "ledger_exempt": true
+}
